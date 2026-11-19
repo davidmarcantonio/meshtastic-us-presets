@@ -1,0 +1,44 @@
+{
+  "id": "us/mn/msp-mesh",
+  "state": "MN",
+  "name": "MSP Mesh",
+  "area": "Twin Cities, Greater Minnesota and western Wisconsin",
+  "status": "published",
+  "sources": [
+    "https://mspmesh.org/settings/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://mspmesh.org/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": null
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "nodeInfoSecs": 21600,
+      "positionSecs": 43200,
+      "smartPosition": false
+    },
+    "home": {
+      "nodeInfoSecs": 43200,
+      "positionSecs": 64800,
+      "smartPosition": false,
+      "telemetrySecs": 21600
+    }
+  },
+  "notes": [
+    "The settings page says to leave the primary channel as it is and does not give a frequency slot; leave the slot on automatic.",
+    "Hops for portable nodes: 3 to 5 inside the 494/694 metro loop and nearby suburbs; try 6 or 7 only if messages don't travel far enough.",
+    "Stationary outdoor nodes: role CLIENT or CLIENT_BASE; 1 or 2 hops at most if the node is an unattended relay.",
+    "Portable nodes: telemetry off. Intervals are minimums ('or more').",
+    "Their page is marked current as of November 2026."
+  ]
+}

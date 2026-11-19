@@ -1,0 +1,31 @@
+{
+  "id": "us/nv/meshenvy",
+  "state": "NV",
+  "name": "MeshEnvy",
+  "area": "Reno, Carson City, northern and central Nevada",
+  "status": "published",
+  "sources": [
+    "https://meshenvy.org/news/protocol-agnostic-medium-fast"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://meshenvy.org"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 45,
+    "frequencyMHz": 913.125
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "notes": [
+    "Leave the primary channel name blank with the default key. If the node goes quiet after switching preset, set the slot to 45 by hand.",
+    "MeshEnvy also supports MeshCore; this entry covers its Meshtastic settings only."
+  ]
+}

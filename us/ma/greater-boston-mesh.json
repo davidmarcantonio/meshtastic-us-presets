@@ -1,0 +1,16 @@
+{
+  "id": "us/ma/greater-boston-mesh",
+  "state": "MA",
+  "name": "Greater Boston Mesh",
+  "area": "Greater Boston",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/MUVASVEEES"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/MUVASVEEES"
+  }
+}
