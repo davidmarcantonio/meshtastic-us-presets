@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/san-jose-meshtastic-club",
+  "state": "CA",
+  "name": "San Jose Meshtastic Club",
+  "area": "San Jose, South Bay",
+  "status": "listed",
+  "sources": [
+    "https://discord.gg/h7824FUxBx"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/h7824FUxBx"
+  }
+}

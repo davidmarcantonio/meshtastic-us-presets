@@ -1,0 +1,53 @@
+{
+  "id": "us/ca/central-valley-mesh",
+  "state": "CA",
+  "name": "Central Valley Mesh",
+  "area": "Fresno, Bakersfield, Modesto, Stockton, Merced",
+  "status": "published",
+  "sources": [
+    "https://centralvalleymesh.net/docs/getting-started/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://centralvalleymesh.net/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3
+    },
+    "home": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 3
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Recommended. It lets gateways upload to the CVM MeshInfo map.",
+    "server": "mqtt.cvme.sh",
+    "rootTopic": "msh/US/CA/centralvalley"
+  },
+  "notes": [
+    "Most CVM nodes run LongFast; some areas use MediumFast. Check their Discord for your town.",
+    "The CVM community channel key is shared on Discord, not published."
+  ]
+}

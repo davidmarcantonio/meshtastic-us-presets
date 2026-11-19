@@ -1,0 +1,194 @@
+name: Submit or update a community
+description: Add a US Meshtastic community, or correct one that is already here. No JSON needed.
+title: "[community] <State>: <Community name>"
+labels: ["community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in what the community itself says. **Leave a field empty if they don't state it. Never guess.**
+        A maintainer turns this form into `us/<state>/<slug>.json` and opens a pull request.
+        Field names in brackets are the names used in [the schema](https://github.com/davidmarcantonio/meshtastic-us-presets/blob/main/schema/community.schema.json).
+  - type: input
+    id: name
+    attributes:
+      label: Community name [name]
+      placeholder: BayMe.sh
+    validations:
+      required: true
+  - type: dropdown
+    id: state
+    attributes:
+      label: State [state]
+      description: For a multi-state group, pick the state it is best known for and name the others under Area.
+      options: [AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, PR, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY]
+    validations:
+      required: true
+  - type: input
+    id: area
+    attributes:
+      label: Area covered [area]
+      placeholder: San Francisco, East Bay, Peninsula, South Bay, North Bay
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status [status]
+      description: "published = the settings are on a public web page anyone can open. listed = settings are only in Discord, Facebook or similar (or you don't know them); the entry will just point people to the group."
+      options: [published, listed]
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source URLs [sources]
+      description: One per line. For "published", the page that states the settings. For "listed", the group's page or invite. If you are copying from Discord, give the invite link and say which channel or pinned message.
+      placeholder: https://bayme.sh/docs/getting-started/recommended-settings/
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date checked [checked]
+      description: The day you read the source, YYYY-MM-DD.
+      placeholder: "2026-11-19"
+    validations:
+      required: true
+  - type: dropdown
+    id: contact_type
+    attributes:
+      label: Contact link type [contact.type]
+      options: [website, discord, facebook, reddit, github, groupsio, telegram, signal, matrix, simplex, other]
+    validations:
+      required: true
+  - type: input
+    id: contact_url
+    attributes:
+      label: Contact link [contact.url]
+      description: Where a newcomer should go to reach the group.
+      placeholder: https://discord.gg/...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Radio settings
+        Only for **published** communities. Skip the rest of the form for "listed".
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region [lora.region]
+      options: ["US (1)"]
+  - type: dropdown
+    id: modem_preset
+    attributes:
+      label: Modem preset [lora.modemPreset]
+      description: The number is the protobuf enum value and is filled in for you.
+      options:
+        - "LONG_FAST (0)"
+        - "LONG_SLOW (1)"
+        - "VERY_LONG_SLOW (2)"
+        - "MEDIUM_SLOW (3)"
+        - "MEDIUM_FAST (4)"
+        - "SHORT_SLOW (5)"
+        - "SHORT_FAST (6)"
+        - "LONG_MODERATE (7)"
+        - "SHORT_TURBO (8)"
+        - "LONG_TURBO (9)"
+        - "MEDIUM_TURBO (16)"
+        - "Other (say which under Notes)"
+  - type: input
+    id: frequency_slot
+    attributes:
+      label: Frequency slot [lora.frequencySlot]
+      description: The number the community tells people to enter. Leave empty if they don't publish one.
+      placeholder: "45"
+  - type: input
+    id: frequency_mhz
+    attributes:
+      label: Frequency in MHz, if stated [lora.frequencyMHz]
+      placeholder: "908.750"
+  - type: input
+    id: primary_channel
+    attributes:
+      label: Primary channel name and key, if stated [primaryChannel]
+      description: 'The stock public channel is a blank name with key AQ==. Only give keys the community publishes openly.'
+      placeholder: 'blank name, AQ=='
+  - type: input
+    id: min_firmware
+    attributes:
+      label: Minimum firmware, if stated [minFirmware]
+      placeholder: "2.7.17"
+  - type: textarea
+    id: use_default
+    attributes:
+      label: Settings for any radio [uses.default]
+      description: Delete the lines the community doesn't state. Roles are CLIENT, CLIENT_MUTE, CLIENT_BASE, ROUTER, ROUTER_LATE, TRACKER, SENSOR and so on. Intervals are in seconds (1 hour = 3600).
+      render: yaml
+      value: |
+        role:
+        hopLimit:
+        nodeInfoSecs:
+        positionSecs:
+        smartPosition:
+        telemetrySecs:
+  - type: textarea
+    id: use_everyday
+    attributes:
+      label: Handheld or vehicle radio, if different [uses.everyday]
+      render: yaml
+      value: |
+        role:
+        hopLimit:
+        nodeInfoSecs:
+        positionSecs:
+        smartPosition:
+        telemetrySecs:
+  - type: textarea
+    id: use_home
+    attributes:
+      label: Fixed home node, if different [uses.home]
+      render: yaml
+      value: |
+        role:
+        hopLimit:
+        nodeInfoSecs:
+        positionSecs:
+        smartPosition:
+        telemetrySecs:
+  - type: textarea
+    id: use_extra
+    attributes:
+      label: Second radio near another of your nodes, if different [uses.extra]
+      render: yaml
+      value: |
+        role:
+        hopLimit:
+        nodeInfoSecs:
+        positionSecs:
+        smartPosition:
+        telemetrySecs:
+  - type: dropdown
+    id: ok_to_mqtt
+    attributes:
+      label: OK to MQTT [mqtt.okToMqtt]
+      options: ["Not stated", "On", "Off"]
+  - type: textarea
+    id: mqtt_advice
+    attributes:
+      label: MQTT advice [mqtt.advice]
+      description: One or two plain sentences of what the community says about MQTT.
+  - type: input
+    id: mqtt_server
+    attributes:
+      label: Community MQTT server, if published [mqtt.server]
+  - type: input
+    id: mqtt_root
+    attributes:
+      label: Community MQTT root topic, if published [mqtt.rootTopic]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes [notes]
+      description: One per line. Anything a newcomer should know that isn't a setting above.

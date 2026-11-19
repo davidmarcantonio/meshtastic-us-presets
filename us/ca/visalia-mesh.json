@@ -1,0 +1,64 @@
+{
+  "id": "us/ca/visalia-mesh",
+  "state": "CA",
+  "name": "Visalia Mesh",
+  "area": "Visalia and Tulare County",
+  "status": "published",
+  "sources": [
+    "https://visaliamesh.com/wiki"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://visaliamesh.com/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 3,
+      "nodeInfoSecs": 43200,
+      "positionSecs": 3600,
+      "smartPosition": true,
+      "telemetrySecs": 3600
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 3,
+      "nodeInfoSecs": 43200,
+      "positionSecs": 43200,
+      "smartPosition": false,
+      "telemetrySecs": 3600
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 3,
+      "nodeInfoSecs": 43200,
+      "positionSecs": 43200,
+      "smartPosition": false,
+      "telemetrySecs": 3600
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Visalia Mesh asks you to turn it on."
+  },
+  "notes": [
+    "The wiki publishes a 'Visalia' secondary channel.",
+    "CLIENT_MUTE is recommended for pocket and mobile radios.",
+    "Their wiki warns that firmware 2.8+ defaults new US setups to LongTurbo."
+  ]
+}

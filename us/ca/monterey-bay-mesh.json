@@ -1,0 +1,16 @@
+{
+  "id": "us/ca/monterey-bay-mesh",
+  "state": "CA",
+  "name": "Monterey Bay Mesh",
+  "area": "Monterey Bay",
+  "status": "listed",
+  "sources": [
+    "https://mrymesh.net/",
+    "https://discord.gg/xeqYpc5D89"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/xeqYpc5D89"
+  }
+}

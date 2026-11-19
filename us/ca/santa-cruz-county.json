@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/santa-cruz-county",
+  "state": "CA",
+  "name": "Meshtastic Santa Cruz County",
+  "area": "Santa Cruz County",
+  "status": "listed",
+  "sources": [
+    "https://groups.io/g/Meshtastic-Santa-Cruz"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "groupsio",
+    "url": "https://groups.io/g/Meshtastic-Santa-Cruz"
+  }
+}

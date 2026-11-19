@@ -1,0 +1,59 @@
+{
+  "id": "us/ca/high-desert-mesh",
+  "state": "CA",
+  "name": "High Desert Mesh",
+  "area": "Victorville, Hesperia, Apple Valley, Victor Valley",
+  "status": "published",
+  "sources": [
+    "https://hdmesh.org/meshtastic-node-configuration/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://hdmesh.org/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_MODERATE",
+    "modemPresetNum": 7,
+    "frequencySlot": null
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 7,
+      "nodeInfoSecs": 10800,
+      "positionSecs": 3600,
+      "smartPosition": true
+    },
+    "home": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 7,
+      "nodeInfoSecs": 10800,
+      "positionSecs": 21600,
+      "smartPosition": false
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 7,
+      "nodeInfoSecs": 10800,
+      "positionSecs": 21600,
+      "smartPosition": false
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "High Desert Mesh asks all node types to allow MQTT."
+  },
+  "notes": [
+    "The frequency slot is not published; leave it on automatic and keep the primary channel name blank."
+  ]
+}

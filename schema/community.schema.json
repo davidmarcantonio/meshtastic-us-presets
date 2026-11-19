@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/davidmarcantonio/meshtastic-us-presets/main/schema/community.schema.json",
+  "title": "Meshtastic US community preset",
+  "description": "One Meshtastic community in the United States. 'published' entries carry radio settings the community itself has published at a public URL. 'listed' entries only say the community exists and where to ask; they carry no radio settings.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "state", "name", "area", "status", "sources", "checked", "contact"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": {
+      "description": "Path of this file without .json, e.g. us/ca/baymesh. Must match the file's location.",
+      "type": "string",
+      "pattern": "^us/[a-z]{2}/[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "state": {
+      "description": "Two-letter USPS code, upper case. Multi-state groups get one file under the state they are best known for and name the rest in 'area'.",
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "name": { "type": "string", "minLength": 2, "maxLength": 80 },
+    "area": {
+      "description": "Plain-language coverage: cities, counties or region.",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 160
+    },
+    "status": {
+      "description": "published = settings below come from the community's own public page. listed = no public settings found; ask the community.",
+      "enum": ["published", "listed"]
+    },
+    "sources": {
+      "description": "Public URLs the entry was taken from. For 'published', the page(s) that state the settings.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "format": "uri", "pattern": "^https?://" }
+    },
+    "checked": {
+      "description": "Date (UTC, YYYY-MM-DD) a person or the monthly check last compared this file with its sources.",
+      "type": "string",
+      "format": "date"
+    },
+    "contact": {
+      "description": "Where a newcomer should go to reach the community.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "url"],
+      "properties": {
+        "type": {
+          "enum": ["website", "discord", "facebook", "reddit", "github", "groupsio", "telegram", "signal", "matrix", "simplex", "other"]
+        },
+        "url": { "type": "string", "format": "uri", "pattern": "^https?://" }
+      }
+    },
+    "lora": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["region", "regionNum", "modemPreset", "modemPresetNum", "frequencySlot"],
+      "properties": {
+        "region": { "description": "Config.LoRaConfig.RegionCode name.", "enum": ["US"] },
+        "regionNum": { "description": "RegionCode number. US = 1.", "const": 1 },
+        "modemPreset": {
+          "description": "Config.LoRaConfig.ModemPreset name.",
+          "enum": [
+            "LONG_FAST", "LONG_SLOW", "VERY_LONG_SLOW", "MEDIUM_SLOW", "MEDIUM_FAST", "SHORT_SLOW", "SHORT_FAST",
+            "LONG_MODERATE", "SHORT_TURBO", "LONG_TURBO", "LITE_FAST", "LITE_SLOW", "NARROW_FAST", "NARROW_SLOW",
+            "TINY_FAST", "TINY_SLOW", "MEDIUM_TURBO"
+          ]
+        },
+        "modemPresetNum": {
+          "description": "ModemPreset number from meshtastic/protobufs (LONG_FAST=0, MEDIUM_FAST=4, LONG_TURBO=9, MEDIUM_TURBO=16). Checked against schema/enums.json.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 16
+        },
+        "frequencySlot": {
+          "description": "LoRa channel_num (the app's 'Frequency Slot'). null = the community does not publish one; leave the radio on 0 (automatic).",
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "maximum": 208
+        },
+        "frequencyMHz": {
+          "description": "Centre frequency, only if the community states it.",
+          "type": "number",
+          "minimum": 902,
+          "maximum": 928
+        }
+      }
+    },
+    "primaryChannel": {
+      "description": "Primary channel, if the community states it. Omitted means not stated. The stock public channel is name \"\" and psk \"AQ==\".",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "psk"],
+      "properties": {
+        "name": { "type": "string", "maxLength": 11 },
+        "psk": { "description": "Base64. Only keys the community publishes openly.", "type": "string", "pattern": "^[A-Za-z0-9+/]*={0,2}$" }
+      }
+    },
+    "minFirmware": {
+      "description": "Lowest firmware the settings need, if stated (e.g. 2.7.17 for LONG_TURBO).",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "uses": {
+      "description": "Per-use settings. 'default' applies to any radio; the other keys override it for that use. Leave out anything the community does not publish.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "default": { "$ref": "#/$defs/use" },
+        "everyday": { "description": "Handheld or vehicle radio.", "$ref": "#/$defs/use" },
+        "home": { "description": "Fixed node at home: attic, window, rooftop.", "$ref": "#/$defs/use" },
+        "extra": { "description": "A second radio close to another of the owner's nodes.", "$ref": "#/$defs/use" }
+      }
+    },
+    "mqtt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["advice"],
+      "properties": {
+        "okToMqtt": { "description": "What the community asks for LoRa 'OK to MQTT'. Omit if they say nothing.", "type": "boolean" },
+        "advice": { "description": "One or two sentences, in plain language, of what the community says about MQTT.", "type": "string", "minLength": 2, "maxLength": 300 },
+        "server": { "description": "Community MQTT host, if published.", "type": "string", "maxLength": 120 },
+        "rootTopic": { "description": "Community root topic, if published.", "type": "string", "maxLength": 120 }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 2, "maxLength": 300 }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "published" } } },
+      "then": { "required": ["lora", "uses"] },
+      "else": {
+        "description": "Listed entries must not carry radio settings.",
+        "properties": {
+          "lora": false, "primaryChannel": false, "minFirmware": false, "uses": false, "mqtt": false
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "use": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "dependentRequired": { "role": ["roleNum"], "roleNum": ["role"] },
+      "properties": {
+        "role": {
+          "description": "Config.DeviceConfig.Role name.",
+          "enum": [
+            "CLIENT", "CLIENT_MUTE", "ROUTER", "ROUTER_CLIENT", "REPEATER", "TRACKER", "SENSOR", "TAK",
+            "CLIENT_HIDDEN", "LOST_AND_FOUND", "TAK_TRACKER", "ROUTER_LATE", "CLIENT_BASE"
+          ]
+        },
+        "roleNum": {
+          "description": "Role number from meshtastic/protobufs (CLIENT=0, CLIENT_MUTE=1, CLIENT_BASE=12). Checked against schema/enums.json.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 12
+        },
+        "hopLimit": { "type": "integer", "minimum": 0, "maximum": 7 },
+        "nodeInfoSecs": { "description": "device.node_info_broadcast_secs", "type": "integer", "minimum": 60, "maximum": 2592000 },
+        "positionSecs": { "description": "position.position_broadcast_secs", "type": "integer", "minimum": 60, "maximum": 2592000 },
+        "smartPosition": { "description": "position.position_broadcast_smart_enabled", "type": "boolean" },
+        "telemetrySecs": { "description": "telemetry.device_update_interval", "type": "integer", "minimum": 60, "maximum": 2592000 }
+      }
+    }
+  }
+}

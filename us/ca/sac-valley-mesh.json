@@ -1,0 +1,16 @@
+{
+  "id": "us/ca/sac-valley-mesh",
+  "state": "CA",
+  "name": "Sac Valley Mesh",
+  "area": "Sacramento Valley",
+  "status": "listed",
+  "sources": [
+    "http://www.sacvalleymesh.com",
+    "https://discord.gg/kk26pjpDhG"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/kk26pjpDhG"
+  }
+}
