@@ -1,0 +1,16 @@
+{
+  "id": "us/nd/north-dakota-mesh",
+  "state": "ND",
+  "name": "North Dakota Mesh",
+  "area": "North Dakota",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/JUBrZepkaM"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/JUBrZepkaM"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "us/ok/oklahoma-meshtastic-group",
+  "state": "OK",
+  "name": "Oklahoma Meshtastic Group",
+  "area": "Oklahoma",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.facebook.com/groups/942404880478488"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "facebook",
+    "url": "https://www.facebook.com/groups/942404880478488"
+  }
+}

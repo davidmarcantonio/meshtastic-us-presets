@@ -1,0 +1,16 @@
+{
+  "id": "us/or/willamette-valley-mesh",
+  "state": "OR",
+  "name": "Willamette Valley Mesh",
+  "area": "Eugene and Springfield",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/gf4mShtJz4"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/gf4mShtJz4"
+  }
+}
