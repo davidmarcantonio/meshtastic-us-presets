@@ -6,14 +6,15 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://www.abqm.net"
+    "https://www.abqm.net",
+    "https://discord.com/invite/FqwAXNUTna"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://www.abqm.net"
+    "type": "discord",
+    "url": "https://discord.com/invite/FqwAXNUTna"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their site names the LongFast channel and nothing else."
   ]
 }

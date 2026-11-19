@@ -3,17 +3,25 @@
   "state": "PA",
   "name": "Philly Radio & Meshtastic",
   "area": "Philadelphia area",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
     "https://phillymesh.net/"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://phillymesh.net/"
+    "type": "discord",
+    "url": "https://discord.gg/MWWbAkRR9v"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_TURBO",
+    "modemPresetNum": 9,
+    "frequencySlot": 14,
+    "frequencyMHz": 908.75
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "PhillyMesh has moved off LongFast to LongTurbo. Their older getting-started page still describes LongFast.",
+    "Slot can be left on 0 (automatic) or set to 14."
   ]
 }

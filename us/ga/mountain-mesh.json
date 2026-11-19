@@ -2,19 +2,57 @@
   "id": "us/ga/mountain-mesh",
   "state": "GA",
   "name": "Mountain Mesh",
-  "area": "Metro Atlanta, Athens and North Georgia",
-  "status": "listed",
+  "area": "North Georgia and East Tennessee (Appalachian Mountains), Metro Atlanta, Athens",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://mtnme.sh/mediumfast/",
+    "https://mtnme.sh/config",
     "https://mtnme.sh"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://mtnme.sh"
+    "type": "discord",
+    "url": "https://discord.gg/4WN32RHGSs"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 45,
+    "frequencyMHz": 913.125
+  },
+  "primaryChannel": {
+    "name": "MediumFast",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 5,
+      "nodeInfoSecs": 10800,
+      "positionSecs": 10800,
+      "smartPosition": true
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 3,
+      "nodeInfoSecs": 21600,
+      "positionSecs": 21600,
+      "smartPosition": false
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Their configs set OK to MQTT on and Ignore MQTT on."
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first.",
-    "Mountain Mesh moved to MediumFast on 2025-10-01; their own page is mtnme.sh/mediumfast."
+    "On MediumFast since 2025-10-01.",
+    "Mobile hop limit is 5; do not go above 6.",
+    "Mobile nodes: device and environment metrics off. Home nodes: device metrics every 3 hours on solar nodes only.",
+    "ROUTER_LATE is for coordinated public high sites; talk to them on Discord first.",
+    "Optional secondary channel: LongFast, key AQ==."
   ]
 }

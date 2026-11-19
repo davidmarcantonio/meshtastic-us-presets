@@ -1,0 +1,53 @@
+{
+  "id": "us/ny/nyme-sh-mediumslow",
+  "state": "NY",
+  "name": "nyme.sh (MediumSlow, slot 48)",
+  "area": "New York City metro area",
+  "status": "published",
+  "sources": [
+    "https://nyme.sh/getting-started/",
+    "https://nyme.sh/",
+    "https://nyme.sh"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.nyme.sh"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_SLOW",
+    "modemPresetNum": 3,
+    "frequencySlot": 48
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 7,
+      "nodeInfoSecs": 68400,
+      "smartPosition": true
+    },
+    "home": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 7,
+      "nodeInfoSecs": 68400,
+      "positionSecs": 82800,
+      "smartPosition": false
+    }
+  },
+  "mqtt": {
+    "advice": "Optional: turn on OK to MQTT to show your node on their map and chat."
+  },
+  "notes": [
+    "nyme.sh runs more than one network. Their homepage says the main network is moving to a non-default frequency slot; check their Discord for which one is active near you.",
+    "Intervals are minimums ('or longer'). Telemetry off for personal nodes.",
+    "Infrastructure nodes: CLIENT_BASE, 2 hops, unmessagable."
+  ]
+}

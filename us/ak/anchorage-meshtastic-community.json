@@ -3,9 +3,9 @@
   "state": "AK",
   "name": "Anchorage Meshtastic Community",
   "area": "Anchorage area",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://anchornodeclub.neocities.org/Home",
     "https://anchornode.club"
   ],
   "checked": "2026-11-19",
@@ -13,7 +13,19 @@
     "type": "website",
     "url": "https://anchornode.club"
   },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "mqtt": {
+    "advice": "Keep MQTT off unless you have a specific use and can run your own server."
+  },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "They are staying on LongFast and recommend waiting for firmware 2.8 to be stable before moving to LongTurbo.",
+    "Roles: CLIENT, CLIENT_MUTE or CLIENT_BASE only.",
+    "Do not change the primary channel name or key."
   ]
 }

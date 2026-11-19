@@ -6,14 +6,16 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://www.lzmesh.com"
+    "https://www.lzmesh.com",
+    "https://lzmesh.com/resources/lz-quick-setup/",
+    "https://discord.lzarc.com"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://www.lzmesh.com"
+    "type": "discord",
+    "url": "https://discord.lzarc.com"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their quick-setup page publishes channels (default public primary, LZMesh secondary) and MQTT (mqtt.lzmesh.com, root topic msh/LZ), but not the preset or slot."
   ]
 }

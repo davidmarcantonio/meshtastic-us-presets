@@ -6,14 +6,17 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://meshoregon.com"
+    "https://meshoregon.com",
+    "https://meshoregon.com/meshtastic-node-setup/"
   ],
   "checked": "2026-11-19",
   "contact": {
     "type": "website",
-    "url": "https://meshoregon.com"
+    "url": "https://meshoregon.com/meshtastic-node-setup/"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "MeshOregon does not use a stock preset: Use Preset off, bandwidth 125, spreading factor 8, coding rate 5, override frequency 918.5 MHz. This file format cannot express that yet, so there is no preset here.",
+    "Primary channel MeshOregon (key AQ==). Needs firmware 2.7.15 or later.",
+    "Role CLIENT (CLIENT_BASE for a rooftop home node); node info every 12 hours or longer; position every 24 hours."
   ]
 }

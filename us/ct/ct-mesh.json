@@ -6,14 +6,17 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://ctmesh.org"
+    "https://ctmesh.org",
+    "https://ctmesh.org/meshtastic-resources.html",
+    "https://ctmesh.org/discord"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://ctmesh.org"
+    "type": "discord",
+    "url": "https://ctmesh.org/discord"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their resources page gives channels and MQTT but not the preset or slot: primary LongFast (key AQ==), secondary ConnNet (key on their page), role CLIENT.",
+    "MQTT server mqtt.ctmesh.org, root topic msh/US/CT, OK to MQTT on."
   ]
 }

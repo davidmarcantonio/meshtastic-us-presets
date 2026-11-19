@@ -6,14 +6,12 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://meshcolumb.us/"
+    "https://meshcolumb.us/",
+    "https://discord.com/invite/B6fuujsHJu"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://meshcolumb.us/"
-  },
-  "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
-  ]
+    "type": "discord",
+    "url": "https://discord.com/invite/B6fuujsHJu"
+  }
 }

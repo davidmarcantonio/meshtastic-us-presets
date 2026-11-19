@@ -6,14 +6,18 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://lasmesh.com"
+    "https://lasmesh.com",
+    "https://lasmesh.com/page.php?slug=get-started",
+    "https://discord.gg/WbnH2pK5zK"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://lasmesh.com"
+    "type": "discord",
+    "url": "https://discord.gg/WbnH2pK5zK"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their get-started page does not name the preset or slot.",
+    "It does publish: portable nodes CLIENT_MUTE with 4 to 5 hops, fixed nodes CLIENT with 5 hops, node info every 3 hours, position every hour, Ignore MQTT on.",
+    "They also publish a LASmesh channel and key on their homepage."
   ]
 }

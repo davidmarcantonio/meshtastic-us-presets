@@ -3,17 +3,24 @@
   "state": "OH",
   "name": "Northeast Ohio Mesh",
   "area": "Cleveland and Akron area",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://neome.sh/meshtastic",
     "https://neome.sh/"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://neome.sh/"
+    "type": "discord",
+    "url": "https://discord.gg/hDCxm47JSF"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "They use the built-in LongFast channel and no custom channel."
   ]
 }

@@ -3,17 +3,41 @@
   "state": "SD",
   "name": "SoDakMesh",
   "area": "South Dakota",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.sodakmesh.org/meshsettings.html",
     "http://sodakmesh.org/"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "http://sodakmesh.org/"
+    "type": "discord",
+    "url": "https://discord.com/invite/8wQc9nszhX"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "uses": {
+    "everyday": {
+      "hopLimit": 7,
+      "smartPosition": true
+    },
+    "home": {
+      "hopLimit": 3,
+      "positionSecs": 21600,
+      "smartPosition": false
+    }
+  },
+  "mqtt": {
+    "advice": "Optional. They run their own server for internet-connected nodes; the login is on their settings page.",
+    "server": "mqtt.sodakmesh.org",
+    "rootTopic": "msh/sodakmesh"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Role: CLIENT or CLIENT_MUTE. Do not use ROUTER or REPEATER.",
+    "Device metrics every 6 hours or longer, and only on solar-powered stationary nodes."
   ]
 }

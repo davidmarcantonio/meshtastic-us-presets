@@ -3,17 +3,32 @@
   "state": "NY",
   "name": "CNYMesh",
   "area": "Syracuse and surrounding counties",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://cnymesh.org/getting-started/meshtastic.html",
     "https://cnymesh.org"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://cnymesh.org"
+    "type": "discord",
+    "url": "https://discord.gg/xBb5eGTpuy"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20,
+    "frequencyMHz": 906.875
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "MQTT forwarding permitted; uplink and downlink on for the CNYmesh channel.",
+    "server": "mqtt.meshtastic.org",
+    "rootTopic": "msh/US/NY/CNY"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Hop limit: 3 to 7.",
+    "Secondary channels CNYmesh and CNYmesh-EAS are added from the QR code on their page."
   ]
 }
