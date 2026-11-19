@@ -1,0 +1,16 @@
+{
+  "id": "us/ga/segamesh",
+  "state": "GA",
+  "name": "Southeast Georgia Mesh (SEGAMesh)",
+  "area": "Southeast Georgia",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://smp8.simplex.im/g#1k2HC-3aeDnq-U3M3xpAx6GUGSKEXXX1ZylkYswlWgo"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "simplex",
+    "url": "https://smp8.simplex.im/g#1k2HC-3aeDnq-U3M3xpAx6GUGSKEXXX1ZylkYswlWgo"
+  }
+}

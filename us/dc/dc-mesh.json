@@ -1,0 +1,19 @@
+{
+  "id": "us/dc/dc-mesh",
+  "state": "DC",
+  "name": "DC Mesh",
+  "area": "Washington, DC",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://dcmesh.org"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://dcmesh.org"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

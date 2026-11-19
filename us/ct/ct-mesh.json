@@ -1,0 +1,19 @@
+{
+  "id": "us/ct/ct-mesh",
+  "state": "CT",
+  "name": "CT Mesh",
+  "area": "Connecticut",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://ctmesh.org"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://ctmesh.org"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

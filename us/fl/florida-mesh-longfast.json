@@ -1,0 +1,30 @@
+{
+  "id": "us/fl/florida-mesh-longfast",
+  "state": "FL",
+  "name": "Florida Mesh (LongFast, most of the state)",
+  "area": "North West, North, Central West and Central East Florida, and South Florida outside the southeast coast",
+  "status": "published",
+  "sources": [
+    "https://areyoumeshingwith.us/docs/meshtastic/regional-lora-settings/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://areyoumeshingwith.us/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
+  },
+  "mqtt": {
+    "advice": "Florida Mesh runs its own MQTT server, which now requires an account; see their MQTT page."
+  },
+  "notes": [
+    "Their page says to leave the frequency slot on 0 (automatic), which is slot 20 with the default channel name. Set 20 by hand only if you rename the primary channel.",
+    "Jacksonville and Duval County, and the southeast coast from Sebastian to Layton Key, use MediumFast instead; see the other Florida Mesh entry.",
+    "Brevard County is listed as a dual LongFast and MediumFast area."
+  ]
+}

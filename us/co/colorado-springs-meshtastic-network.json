@@ -1,0 +1,16 @@
+{
+  "id": "us/co/colorado-springs-meshtastic-network",
+  "state": "CO",
+  "name": "Colorado Springs Meshtastic Network",
+  "area": "Colorado Springs area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.facebook.com/groups/cosmeshtastic"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "facebook",
+    "url": "https://www.facebook.com/groups/cosmeshtastic"
+  }
+}

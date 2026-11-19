@@ -1,0 +1,30 @@
+{
+  "id": "us/fl/florida-mesh-mediumfast",
+  "state": "FL",
+  "name": "Florida Mesh (MediumFast, southeast coast and Jacksonville)",
+  "area": "Southeast coast from Sebastian to Layton Key (Monroe through Okeechobee counties); Jacksonville and Duval County",
+  "status": "published",
+  "sources": [
+    "https://areyoumeshingwith.us/docs/meshtastic/regional-lora-settings/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://areyoumeshingwith.us/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 45
+  },
+  "mqtt": {
+    "advice": "Florida Mesh runs its own MQTT server, which now requires an account; see their MQTT page."
+  },
+  "notes": [
+    "Their page says to leave the frequency slot on 0 (automatic), which is slot 45 with the default channel name. Set 45 by hand only if you rename the primary channel.",
+    "Jacksonville and Duval County moved to MediumFast on 2026-03-28; the southeast coast moved in 2026.",
+    "Brevard County is listed as a dual LongFast and MediumFast area."
+  ]
+}

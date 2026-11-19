@@ -1,0 +1,16 @@
+{
+  "id": "us/ga/csra-mesh",
+  "state": "GA",
+  "name": "CSRA Mesh",
+  "area": "Augusta, GA and North Augusta, SC",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/rQSTQDZKgs"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/rQSTQDZKgs"
+  }
+}
