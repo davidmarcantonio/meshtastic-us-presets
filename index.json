@@ -1,12 +1,12 @@
 {
   "schema": "schema/community.schema.json",
   "license": "CC0-1.0",
-  "count": 118,
+  "count": 119,
   "states": {
     "AK": {
       "name": "Alaska",
-      "published": 0,
-      "listed": 1
+      "published": 1,
+      "listed": 0
     },
     "AL": {
       "name": "Alabama",
@@ -40,8 +40,8 @@
     },
     "DC": {
       "name": "District of Columbia",
-      "published": 0,
-      "listed": 2
+      "published": 1,
+      "listed": 1
     },
     "DE": {
       "name": "Delaware",
@@ -55,8 +55,8 @@
     },
     "GA": {
       "name": "Georgia",
-      "published": 0,
-      "listed": 4
+      "published": 1,
+      "listed": 3
     },
     "HI": {
       "name": "Hawaii",
@@ -75,13 +75,13 @@
     },
     "IL": {
       "name": "Illinois",
-      "published": 0,
-      "listed": 2
+      "published": 1,
+      "listed": 1
     },
     "IN": {
       "name": "Indiana",
-      "published": 0,
-      "listed": 4
+      "published": 1,
+      "listed": 3
     },
     "KS": {
       "name": "Kansas",
@@ -105,8 +105,8 @@
     },
     "MD": {
       "name": "Maryland",
-      "published": 0,
-      "listed": 1
+      "published": 1,
+      "listed": 0
     },
     "ME": {
       "name": "Maine",
@@ -125,8 +125,8 @@
     },
     "MO": {
       "name": "Missouri",
-      "published": 0,
-      "listed": 5
+      "published": 1,
+      "listed": 4
     },
     "MS": {
       "name": "Mississippi",
@@ -135,13 +135,13 @@
     },
     "MT": {
       "name": "Montana",
-      "published": 0,
-      "listed": 1
+      "published": 1,
+      "listed": 0
     },
     "NC": {
       "name": "North Carolina",
-      "published": 0,
-      "listed": 2
+      "published": 1,
+      "listed": 1
     },
     "ND": {
       "name": "North Dakota",
@@ -165,13 +165,13 @@
     },
     "NY": {
       "name": "New York",
-      "published": 0,
-      "listed": 6
+      "published": 4,
+      "listed": 3
     },
     "OH": {
       "name": "Ohio",
-      "published": 0,
-      "listed": 6
+      "published": 1,
+      "listed": 5
     },
     "OK": {
       "name": "Oklahoma",
@@ -185,8 +185,8 @@
     },
     "PA": {
       "name": "Pennsylvania",
-      "published": 0,
-      "listed": 5
+      "published": 2,
+      "listed": 3
     },
     "PR": {
       "name": "Puerto Rico",
@@ -200,8 +200,8 @@
     },
     "SD": {
       "name": "South Dakota",
-      "published": 0,
-      "listed": 2
+      "published": 1,
+      "listed": 1
     },
     "TN": {
       "name": "Tennessee",
@@ -210,8 +210,8 @@
     },
     "TX": {
       "name": "Texas",
-      "published": 0,
-      "listed": 5
+      "published": 1,
+      "listed": 4
     },
     "UT": {
       "name": "Utah",
@@ -225,13 +225,13 @@
     },
     "WA": {
       "name": "Washington",
-      "published": 1,
-      "listed": 3
+      "published": 2,
+      "listed": 2
     },
     "WI": {
       "name": "Wisconsin",
-      "published": 0,
-      "listed": 3
+      "published": 1,
+      "listed": 2
     },
     "WY": {
       "name": "Wyoming",
@@ -245,13 +245,15 @@
       "state": "AK",
       "name": "Anchorage Meshtastic Community",
       "area": "Anchorage area",
-      "status": "listed",
+      "status": "published",
       "path": "us/ak/anchorage-meshtastic-community.json",
       "checked": "2026-11-19",
       "contact": {
         "type": "website",
         "url": "https://anchornode.club"
-      }
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/al/alabama-meshtastic-community",
@@ -411,8 +413,8 @@
       "path": "us/ca/laguna-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://lagunamesh.com"
+        "type": "discord",
+        "url": "https://discord.com/invite/aZ2dGUKR8H"
       }
     },
     {
@@ -573,8 +575,8 @@
       "path": "us/co/northern-colorado-mesh-group.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://nocomesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/eSa42W5Bzp"
       }
     },
     {
@@ -586,8 +588,8 @@
       "path": "us/ct/ct-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://ctmesh.org"
+        "type": "discord",
+        "url": "https://ctmesh.org/discord"
       }
     },
     {
@@ -595,13 +597,15 @@
       "state": "DC",
       "name": "DC Mesh",
       "area": "Washington, DC",
-      "status": "listed",
+      "status": "published",
       "path": "us/dc/dc-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://dcmesh.org"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/Bd9xfDB9Rm"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/dc/dmv-mesh",
@@ -668,8 +672,8 @@
       "path": "us/fl/jaxmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://jaxmesh.com/"
+        "type": "discord",
+        "url": "https://discord.gg/86uf2wTMwq"
       }
     },
     {
@@ -707,22 +711,24 @@
       "path": "us/ga/georgia-statewide-mesh-coalition.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://gamesh.net"
+        "type": "discord",
+        "url": "https://discord.gg/sfR43FrXtq"
       }
     },
     {
       "id": "us/ga/mountain-mesh",
       "state": "GA",
       "name": "Mountain Mesh",
-      "area": "Metro Atlanta, Athens and North Georgia",
-      "status": "listed",
+      "area": "North Georgia and East Tennessee (Appalachian Mountains), Metro Atlanta, Athens",
+      "status": "published",
       "path": "us/ga/mountain-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://mtnme.sh"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/4WN32RHGSs"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 45
     },
     {
       "id": "us/ga/segamesh",
@@ -759,8 +765,8 @@
       "path": "us/ia/iowa-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://iowamesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/2pfPx9gGD"
       }
     },
     {
@@ -807,13 +813,15 @@
       "state": "IL",
       "name": "Chicagoland Mesh",
       "area": "Chicago area",
-      "status": "listed",
+      "status": "published",
       "path": "us/il/chicagoland-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://chicagolandmesh.org"
-      }
+        "type": "discord",
+        "url": "https://chicagolandmesh.org/discord"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/in/b-town-mesh",
@@ -824,8 +832,8 @@
       "path": "us/in/b-town-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://btownmesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/RAnPvDsxPJ"
       }
     },
     {
@@ -837,8 +845,8 @@
       "path": "us/in/cimesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://cimesh.net"
+        "type": "discord",
+        "url": "https://discord.gg/tm7wh7RjD7"
       }
     },
     {
@@ -859,13 +867,15 @@
       "state": "IN",
       "name": "NWI Mesh Net",
       "area": "Northwest Indiana",
-      "status": "listed",
+      "status": "published",
       "path": "us/in/nwi-mesh-net.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://NWIMesh.net"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/4wQ5SWPBfQ"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/ks/seckc",
@@ -969,8 +979,8 @@
       "path": "us/ma/southcoast-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://southcoastmesh.com"
+        "type": "discord",
+        "url": "https://discord.gg/sZudrRnua5"
       }
     },
     {
@@ -978,13 +988,15 @@
       "state": "MD",
       "name": "Maryland Mesh",
       "area": "Maryland",
-      "status": "listed",
+      "status": "published",
       "path": "us/md/maryland-mesh.json",
       "checked": "2026-11-19",
       "contact": {
         "type": "website",
         "url": "https://marylandmesh.org"
-      }
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/me/maine-mesh",
@@ -1051,8 +1063,8 @@
       "path": "us/mo/lzmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://www.lzmesh.com"
+        "type": "discord",
+        "url": "https://discord.lzarc.com"
       }
     },
     {
@@ -1077,8 +1089,8 @@
       "path": "us/mo/missouri-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://missourimesh.org"
+        "type": "discord",
+        "url": "https://missourimesh.org/discord"
       }
     },
     {
@@ -1086,13 +1098,15 @@
       "state": "MO",
       "name": "Show Me Mesh",
       "area": "Jefferson City area",
-      "status": "listed",
+      "status": "published",
       "path": "us/mo/show-me-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://www.mo-mesh.com"
-      }
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/3864076280546910"
+      },
+      "modemPreset": "MEDIUM_SLOW",
+      "frequencySlot": 1
     },
     {
       "id": "us/ms/mississippi-meshtastic-community",
@@ -1112,26 +1126,30 @@
       "state": "MT",
       "name": "Montana Meshtastic Community",
       "area": "Montana",
-      "status": "listed",
+      "status": "published",
       "path": "us/mt/montana-meshtastic-community.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://montanamesh.com/"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/SKmsDCraTV"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/nc/graham-county-mesh",
       "state": "NC",
       "name": "Graham County Mesh",
       "area": "Graham County",
-      "status": "listed",
+      "status": "published",
       "path": "us/nc/graham-county-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://backcountrysignal.org"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/D7nvkKkCWB"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/nc/meshavl",
@@ -1142,8 +1160,8 @@
       "path": "us/nc/meshavl.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://meshavl.com"
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/meshavl/"
       }
     },
     {
@@ -1181,8 +1199,8 @@
       "path": "us/nm/albuquerque-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://www.abqm.net"
+        "type": "discord",
+        "url": "https://discord.com/invite/FqwAXNUTna"
       }
     },
     {
@@ -1194,8 +1212,8 @@
       "path": "us/nv/lasmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://lasmesh.com"
+        "type": "discord",
+        "url": "https://discord.gg/WbnH2pK5zK"
       }
     },
     {
@@ -1235,8 +1253,8 @@
       "path": "us/ny/buffalora-and-snydermesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://buffalora.org"
+        "type": "discord",
+        "url": "https://discord.gg/Mh3tye7CNs"
       }
     },
     {
@@ -1244,26 +1262,45 @@
       "state": "NY",
       "name": "CNYMesh",
       "area": "Syracuse and surrounding counties",
-      "status": "listed",
+      "status": "published",
       "path": "us/ny/cnymesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://cnymesh.org"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/xBb5eGTpuy"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
-      "id": "us/ny/nyme-sh",
+      "id": "us/ny/nyme-sh-longturbo",
       "state": "NY",
-      "name": "New York Mesh (nyme.sh)",
+      "name": "nyme.sh (LongTurbo, slot 14)",
       "area": "New York City metro area",
-      "status": "listed",
-      "path": "us/ny/nyme-sh.json",
+      "status": "published",
+      "path": "us/ny/nyme-sh-longturbo.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://nyme.sh"
-      }
+        "type": "discord",
+        "url": "https://discord.nyme.sh"
+      },
+      "modemPreset": "LONG_TURBO",
+      "frequencySlot": 14
+    },
+    {
+      "id": "us/ny/nyme-sh-mediumslow",
+      "state": "NY",
+      "name": "nyme.sh (MediumSlow, slot 48)",
+      "area": "New York City metro area",
+      "status": "published",
+      "path": "us/ny/nyme-sh-mediumslow.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.nyme.sh"
+      },
+      "modemPreset": "MEDIUM_SLOW",
+      "frequencySlot": 48
     },
     {
       "id": "us/ny/rocmesh",
@@ -1274,8 +1311,8 @@
       "path": "us/ny/rocmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://rocmesh.com/"
+        "type": "discord",
+        "url": "https://discord.gg/aBsNaKy2u5"
       }
     },
     {
@@ -1283,13 +1320,15 @@
       "state": "NY",
       "name": "Southern Tier Mesh",
       "area": "Southern Tier",
-      "status": "listed",
+      "status": "published",
       "path": "us/ny/southern-tier-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://stmesh.net"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/FwMV4M59DF"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/ny/upstate-mesh",
@@ -1313,8 +1352,8 @@
       "path": "us/oh/central-ohio-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://meshcolumb.us/"
+        "type": "discord",
+        "url": "https://discord.com/invite/B6fuujsHJu"
       }
     },
     {
@@ -1326,8 +1365,8 @@
       "path": "us/oh/cincy-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://www.cincymesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/CmrJqsJ9mx"
       }
     },
     {
@@ -1348,13 +1387,15 @@
       "state": "OH",
       "name": "Northeast Ohio Mesh",
       "area": "Cleveland and Akron area",
-      "status": "listed",
+      "status": "published",
       "path": "us/oh/northeast-ohio-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://neome.sh/"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/hDCxm47JSF"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/oh/northwest-ohio-mesh",
@@ -1365,8 +1406,8 @@
       "path": "us/oh/northwest-ohio-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://nwomesh.org/"
+        "type": "discord",
+        "url": "https://discord.gg/r6DcDt2WaW"
       }
     },
     {
@@ -1405,7 +1446,7 @@
       "checked": "2026-11-19",
       "contact": {
         "type": "website",
-        "url": "https://meshoregon.com"
+        "url": "https://meshoregon.com/meshtastic-node-setup/"
       }
     },
     {
@@ -1417,8 +1458,8 @@
       "path": "us/or/pdxmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://pdxmesh.com"
+        "type": "discord",
+        "url": "https://discord.com/invite/y4R5sHPqaU"
       }
     },
     {
@@ -1430,8 +1471,8 @@
       "path": "us/or/southern-oregon-meshtastic-community.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://sites.google.com/view/someshtastic/home"
+        "type": "groupsio",
+        "url": "https://groups.io/g/SOMeshtastic"
       }
     },
     {
@@ -1456,8 +1497,8 @@
       "path": "us/pa/bucks-county-mesh-group.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://bucksmesh.net"
+        "type": "discord",
+        "url": "https://discord.gg/S6P3mwWgBx"
       }
     },
     {
@@ -1465,26 +1506,30 @@
       "state": "PA",
       "name": "Nittany Valley Mesh",
       "area": "State College, Nittany Valley",
-      "status": "listed",
+      "status": "published",
       "path": "us/pa/nittany-valley-mesh.json",
       "checked": "2026-11-19",
       "contact": {
         "type": "website",
         "url": "https://nittanyvalleymesh.org/"
-      }
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/pa/philly-mesh",
       "state": "PA",
       "name": "Philly Radio & Meshtastic",
       "area": "Philadelphia area",
-      "status": "listed",
+      "status": "published",
       "path": "us/pa/philly-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://phillymesh.net/"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/MWWbAkRR9v"
+      },
+      "modemPreset": "LONG_TURBO",
+      "frequencySlot": 14
     },
     {
       "id": "us/pa/susquehanna-valley-mesh",
@@ -1521,8 +1566,8 @@
       "path": "us/pr/pr-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://prmsh.com"
+        "type": "discord",
+        "url": "https://discord.gg/3v6rRhNRpD"
       }
     },
     {
@@ -1534,8 +1579,8 @@
       "path": "us/sc/sc-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://www.scmesh.us/"
+        "type": "discord",
+        "url": "https://discord.gg/ZVtQeThnPU"
       }
     },
     {
@@ -1547,8 +1592,8 @@
       "path": "us/sd/central-sodakmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://csdmesh.org/"
+        "type": "discord",
+        "url": "https://discord.gg/pTcEsRFsQD"
       }
     },
     {
@@ -1556,13 +1601,15 @@
       "state": "SD",
       "name": "SoDakMesh",
       "area": "South Dakota",
-      "status": "listed",
+      "status": "published",
       "path": "us/sd/sodakmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "http://sodakmesh.org/"
-      }
+        "type": "discord",
+        "url": "https://discord.com/invite/8wQc9nszhX"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/tn/nashville-meshville",
@@ -1573,8 +1620,8 @@
       "path": "us/tn/nashville-meshville.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://meshville.org/"
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/215355547760075"
       }
     },
     {
@@ -1625,8 +1672,8 @@
       "path": "us/tx/el-paso-mesh-community.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://elpmesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/jC7CxhbAD2"
       }
     },
     {
@@ -1634,13 +1681,15 @@
       "state": "TX",
       "name": "North Texas Mesh",
       "area": "Dallas, Fort Worth and North Texas",
-      "status": "listed",
+      "status": "published",
       "path": "us/tx/north-texas-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://ntxmesh.com"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/nGeQ8cbSM3"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": null
     },
     {
       "id": "us/ut/intermountain-mesh-freq51",
@@ -1666,8 +1715,8 @@
       "path": "us/va/albemarle-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://albemarlemesh.com/"
+        "type": "discord",
+        "url": "https://discord.gg/7etcWxwatE"
       }
     },
     {
@@ -1714,13 +1763,15 @@
       "state": "WA",
       "name": "Puget Mesh",
       "area": "Puget Sound region",
-      "status": "listed",
+      "status": "published",
       "path": "us/wa/puget-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://PugetMesh.org"
-      }
+        "type": "discord",
+        "url": "https://discord.gg/ANvUg3AyZt"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/wa/sagebrush-mesh-tri-cities",
@@ -1755,13 +1806,15 @@
       "state": "WI",
       "name": "dc414",
       "area": "Milwaukee area",
-      "status": "listed",
+      "status": "published",
       "path": "us/wi/dc414.json",
       "checked": "2026-11-19",
       "contact": {
         "type": "website",
         "url": "https://www.dc414.org/"
-      }
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
     },
     {
       "id": "us/wi/madison-area-mesh",
@@ -1772,8 +1825,8 @@
       "path": "us/wi/madison-area-mesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://madmesh.net"
+        "type": "discord",
+        "url": "https://discord.gg/fd3JUZc2CN"
       }
     },
     {
@@ -1785,8 +1838,8 @@
       "path": "us/wi/meshconsin.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://meshconsin.org"
+        "type": "discord",
+        "url": "https://discord.gg/f3cU7kPbHg"
       }
     },
     {
@@ -1798,8 +1851,8 @@
       "path": "us/wy/wyomingmesh.json",
       "checked": "2026-11-19",
       "contact": {
-        "type": "website",
-        "url": "https://wyomingmesh.org"
+        "type": "discord",
+        "url": "https://discord.gg/5XZ2HRxx"
       }
     }
   ]
