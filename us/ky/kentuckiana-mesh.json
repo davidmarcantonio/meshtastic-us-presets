@@ -1,0 +1,16 @@
+{
+  "id": "us/ky/kentuckiana-mesh",
+  "state": "KY",
+  "name": "Kentuckiana Mesh",
+  "area": "Louisville, KY and Southern Indiana",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/RVb3pDPEZd"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/RVb3pDPEZd"
+  }
+}

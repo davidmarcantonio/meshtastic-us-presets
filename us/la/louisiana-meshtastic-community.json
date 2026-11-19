@@ -1,0 +1,16 @@
+{
+  "id": "us/la/louisiana-meshtastic-community",
+  "state": "LA",
+  "name": "Louisiana Meshtastic Community",
+  "area": "Louisiana",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/EvMTnWRG5p"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/EvMTnWRG5p"
+  }
+}

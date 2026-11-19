@@ -1,0 +1,16 @@
+{
+  "id": "us/il/central-illinois-mesh",
+  "state": "IL",
+  "name": "Central Illinois Mesh",
+  "area": "Central Illinois",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/XXpMeCAJye"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/XXpMeCAJye"
+  }
+}

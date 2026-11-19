@@ -1,0 +1,20 @@
+{
+  "id": "us/id/idaho-mesh",
+  "state": "ID",
+  "name": "Idaho Mesh",
+  "area": "Idaho",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.idahomesh.com/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://www.idahomesh.com/"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first.",
+    "Boise, Twin Falls and the Treasure Valley are also covered by Intermountain Mesh (Freq51); see the Utah entry."
+  ]
+}
