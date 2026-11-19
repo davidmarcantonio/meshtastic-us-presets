@@ -1,0 +1,55 @@
+{
+  "id": "us/ma/pioneer-valley-mesh",
+  "state": "MA",
+  "name": "Pioneer Valley Meshtastic Network",
+  "area": "Pioneer Valley, western Massachusetts",
+  "status": "published",
+  "sources": [
+    "https://pvmesh.org/howto/settings/",
+    "https://pvmesh-website.pages.dev/howto/settings"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://pvmesh.org"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20,
+    "frequencyMHz": 906.875
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "default": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "nodeInfoSecs": 3600,
+      "telemetrySecs": 3600
+    },
+    "everyday": {
+      "positionSecs": 1800
+    },
+    "home": {
+      "positionSecs": 86400
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1
+    }
+  },
+  "mqtt": {
+    "advice": "OK to MQTT is a personal choice. Their guide keeps the MQTT module off and Ignore MQTT off."
+  },
+  "notes": [
+    "Hop limit: 4 or 5. They say you should never need more than 5 in this area.",
+    "Intervals are minimums: node info 1 hour or more, mobile position 30 minutes or more.",
+    "Avoid REPEATER; use ROUTER only on very tall peaks.",
+    "Optional secondary channel: P V Open."
+  ]
+}

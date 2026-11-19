@@ -1,0 +1,19 @@
+{
+  "id": "us/ma/boston-meshnet",
+  "state": "MA",
+  "name": "Boston Meshnet",
+  "area": "Boston area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://github.com/Darachnid/Boston-Meshnet"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "github",
+    "url": "https://github.com/Darachnid/Boston-Meshnet"
+  },
+  "notes": [
+    "The linked GitHub project is a mapping and dashboard tool; it states no radio settings (checked 2026-11-19)."
+  ]
+}

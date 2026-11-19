@@ -1,0 +1,16 @@
+{
+  "id": "us/ms/mississippi-meshtastic-community",
+  "state": "MS",
+  "name": "Mississippi Meshtastic Community",
+  "area": "Mississippi",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/xmsDfx5Jcr"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/xmsDfx5Jcr"
+  }
+}

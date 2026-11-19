@@ -1,0 +1,16 @@
+{
+  "id": "us/ma/new-england-mesh",
+  "state": "MA",
+  "name": "New England Mesh",
+  "area": "Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/mdv5ZfRucQ"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/mdv5ZfRucQ"
+  }
+}

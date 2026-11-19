@@ -1,0 +1,19 @@
+{
+  "id": "us/mt/montana-meshtastic-community",
+  "state": "MT",
+  "name": "Montana Meshtastic Community",
+  "area": "Montana",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://montanamesh.com/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://montanamesh.com/"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

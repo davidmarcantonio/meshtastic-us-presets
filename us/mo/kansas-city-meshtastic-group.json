@@ -1,0 +1,16 @@
+{
+  "id": "us/mo/kansas-city-meshtastic-group",
+  "state": "MO",
+  "name": "Kansas City Meshtastic Group",
+  "area": "Kansas City area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.facebook.com/share/XZ9jnhxy1YT4wWqC/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "facebook",
+    "url": "https://www.facebook.com/share/XZ9jnhxy1YT4wWqC/"
+  }
+}
