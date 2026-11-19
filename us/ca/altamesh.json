@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/altamesh",
+  "state": "CA",
+  "name": "AltaMesh",
+  "area": "Altadena",
+  "status": "listed",
+  "sources": [
+    "https://altamesh.net/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://altamesh.net/"
+  }
+}

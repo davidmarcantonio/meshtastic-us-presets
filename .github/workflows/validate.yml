@@ -1,0 +1,50 @@
+# Validate every community file against the schema and keep index.json in step with them.
+#
+# Pull requests: validate, and rebuild index.json to prove it builds. The result is not committed to the
+# pull request, because a generated file edited in every open pull request would make them conflict.
+# main: rebuild index.json and commit it if it changed.
+#
+# Actions are pinned to commit SHAs.
+name: Validate and index
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # main only: commit the rebuilt index.json. Pull requests never push.
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate community files
+        run: npm run validate
+      - name: Rebuild index.json
+        id: index
+        run: |
+          npm run index
+          if git diff --quiet -- index.json; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+          node -e 'const i=require("./index.json");console.log(`index.json: ${i.count} communities in ${Object.keys(i.states).length} states`)' >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit rebuilt index.json (main only)
+        if: steps.index.outputs.changed == 'true' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "Rebuild index.json"
+          git push origin HEAD:main

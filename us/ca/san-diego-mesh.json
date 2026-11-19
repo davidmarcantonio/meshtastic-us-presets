@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/san-diego-mesh",
+  "state": "CA",
+  "name": "San Diego Mesh",
+  "area": "San Diego County",
+  "status": "listed",
+  "sources": [
+    "https://discord.gg/k8RputgWgD"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/k8RputgWgD"
+  }
+}

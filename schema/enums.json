@@ -1,0 +1,42 @@
+{
+  "_source": "https://github.com/meshtastic/protobufs/blob/master/meshtastic/config.proto",
+  "_commit": "62b09ed",
+  "_checked": "2026-11-19",
+  "RegionCode": {
+    "US": 1
+  },
+  "ModemPreset": {
+    "LONG_FAST": 0,
+    "LONG_SLOW": 1,
+    "VERY_LONG_SLOW": 2,
+    "MEDIUM_SLOW": 3,
+    "MEDIUM_FAST": 4,
+    "SHORT_SLOW": 5,
+    "SHORT_FAST": 6,
+    "LONG_MODERATE": 7,
+    "SHORT_TURBO": 8,
+    "LONG_TURBO": 9,
+    "LITE_FAST": 10,
+    "LITE_SLOW": 11,
+    "NARROW_FAST": 12,
+    "NARROW_SLOW": 13,
+    "TINY_FAST": 14,
+    "TINY_SLOW": 15,
+    "MEDIUM_TURBO": 16
+  },
+  "Role": {
+    "CLIENT": 0,
+    "CLIENT_MUTE": 1,
+    "ROUTER": 2,
+    "ROUTER_CLIENT": 3,
+    "REPEATER": 4,
+    "TRACKER": 5,
+    "SENSOR": 6,
+    "TAK": 7,
+    "CLIENT_HIDDEN": 8,
+    "LOST_AND_FOUND": 9,
+    "TAK_TRACKER": 10,
+    "ROUTER_LATE": 11,
+    "CLIENT_BASE": 12
+  }
+}

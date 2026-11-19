@@ -1,0 +1,60 @@
+{
+  "id": "us/ca/baymesh",
+  "state": "CA",
+  "name": "BayMe.sh",
+  "area": "San Francisco, East Bay, Peninsula, South Bay, North Bay",
+  "status": "published",
+  "sources": [
+    "https://bayme.sh/docs/getting-started/recommended-settings/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://bayme.sh/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 45
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 6,
+      "smartPosition": true,
+      "telemetrySecs": 21600
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 4,
+      "positionSecs": 21600,
+      "smartPosition": false,
+      "telemetrySecs": 21600
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 6,
+      "positionSecs": 21600,
+      "smartPosition": false,
+      "telemetrySecs": 21600
+    }
+  },
+  "mqtt": {
+    "okToMqtt": false,
+    "advice": "Optional. Turn it on only if you want your public messages online (Discord bridge, Meshview)."
+  },
+  "notes": [
+    "Licensed Operator mode must stay off, even with a callsign.",
+    "The firmware default hop limit (3) is explicitly not recommended here.",
+    "Coordinate with BayMesh before any ROUTER or infrastructure install."
+  ]
+}

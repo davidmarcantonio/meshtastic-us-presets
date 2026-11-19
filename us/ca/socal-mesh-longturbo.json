@@ -1,0 +1,65 @@
+{
+  "id": "us/ca/socal-mesh-longturbo",
+  "state": "CA",
+  "name": "SoCal Mesh (LongTurbo, homepage default)",
+  "area": "Orange County, Laguna, greater Southern California",
+  "status": "published",
+  "sources": [
+    "https://socalmesh.org/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://socalmesh.org/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_TURBO",
+    "modemPresetNum": 9,
+    "frequencySlot": 14,
+    "frequencyMHz": 908.75
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "minFirmware": "2.7.17",
+  "uses": {
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 900,
+      "smartPosition": true,
+      "telemetrySecs": 1800
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 86400,
+      "smartPosition": true,
+      "telemetrySecs": 7200
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 86400,
+      "smartPosition": true,
+      "telemetrySecs": 7200
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Recommended, so your node shows up on the community maps."
+  },
+  "notes": [
+    "The homepage lists LongTurbo slot 14 (908.750 MHz); the best-practices page still lists LongFast slot 20. If you hear nobody, try the LongFast entry.",
+    "Do not use the REPEATER role."
+  ]
+}

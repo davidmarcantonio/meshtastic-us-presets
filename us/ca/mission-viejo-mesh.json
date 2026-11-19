@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/mission-viejo-mesh",
+  "state": "CA",
+  "name": "Mission Viejo Mesh",
+  "area": "Mission Viejo, south Orange County",
+  "status": "listed",
+  "sources": [
+    "https://missionviejomesh.org/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://missionviejomesh.org/"
+  }
+}

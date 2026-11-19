@@ -1,0 +1,15 @@
+{
+  "id": "us/ca/antelope-valley-mesh",
+  "state": "CA",
+  "name": "Antelope Valley Mesh",
+  "area": "Lancaster, Palmdale, Antelope Valley",
+  "status": "listed",
+  "sources": [
+    "https://www.avmesh.org/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://www.avmesh.org/"
+  }
+}

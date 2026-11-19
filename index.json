@@ -1,0 +1,208 @@
+{
+  "schema": "schema/community.schema.json",
+  "license": "CC0-1.0",
+  "count": 14,
+  "states": {
+    "CA": {
+      "name": "California",
+      "published": 6,
+      "listed": 8
+    }
+  },
+  "communities": [
+    {
+      "id": "us/ca/altamesh",
+      "state": "CA",
+      "name": "AltaMesh",
+      "area": "Altadena",
+      "status": "listed",
+      "path": "us/ca/altamesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://altamesh.net/"
+      }
+    },
+    {
+      "id": "us/ca/antelope-valley-mesh",
+      "state": "CA",
+      "name": "Antelope Valley Mesh",
+      "area": "Lancaster, Palmdale, Antelope Valley",
+      "status": "listed",
+      "path": "us/ca/antelope-valley-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://www.avmesh.org/"
+      }
+    },
+    {
+      "id": "us/ca/baymesh",
+      "state": "CA",
+      "name": "BayMe.sh",
+      "area": "San Francisco, East Bay, Peninsula, South Bay, North Bay",
+      "status": "published",
+      "path": "us/ca/baymesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://bayme.sh/"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 45
+    },
+    {
+      "id": "us/ca/central-valley-mesh",
+      "state": "CA",
+      "name": "Central Valley Mesh",
+      "area": "Fresno, Bakersfield, Modesto, Stockton, Merced",
+      "status": "published",
+      "path": "us/ca/central-valley-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://centralvalleymesh.net/"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    },
+    {
+      "id": "us/ca/high-desert-mesh",
+      "state": "CA",
+      "name": "High Desert Mesh",
+      "area": "Victorville, Hesperia, Apple Valley, Victor Valley",
+      "status": "published",
+      "path": "us/ca/high-desert-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://hdmesh.org/"
+      },
+      "modemPreset": "LONG_MODERATE",
+      "frequencySlot": null
+    },
+    {
+      "id": "us/ca/santa-cruz-county",
+      "state": "CA",
+      "name": "Meshtastic Santa Cruz County",
+      "area": "Santa Cruz County",
+      "status": "listed",
+      "path": "us/ca/santa-cruz-county.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "groupsio",
+        "url": "https://groups.io/g/Meshtastic-Santa-Cruz"
+      }
+    },
+    {
+      "id": "us/ca/mission-viejo-mesh",
+      "state": "CA",
+      "name": "Mission Viejo Mesh",
+      "area": "Mission Viejo, south Orange County",
+      "status": "listed",
+      "path": "us/ca/mission-viejo-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://missionviejomesh.org/"
+      }
+    },
+    {
+      "id": "us/ca/monterey-bay-mesh",
+      "state": "CA",
+      "name": "Monterey Bay Mesh",
+      "area": "Monterey Bay",
+      "status": "listed",
+      "path": "us/ca/monterey-bay-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/xeqYpc5D89"
+      }
+    },
+    {
+      "id": "us/ca/sac-valley-mesh",
+      "state": "CA",
+      "name": "Sac Valley Mesh",
+      "area": "Sacramento Valley",
+      "status": "listed",
+      "path": "us/ca/sac-valley-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/kk26pjpDhG"
+      }
+    },
+    {
+      "id": "us/ca/san-diego-mesh",
+      "state": "CA",
+      "name": "San Diego Mesh",
+      "area": "San Diego County",
+      "status": "listed",
+      "path": "us/ca/san-diego-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/k8RputgWgD"
+      }
+    },
+    {
+      "id": "us/ca/san-jose-meshtastic-club",
+      "state": "CA",
+      "name": "San Jose Meshtastic Club",
+      "area": "San Jose, South Bay",
+      "status": "listed",
+      "path": "us/ca/san-jose-meshtastic-club.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/h7824FUxBx"
+      }
+    },
+    {
+      "id": "us/ca/socal-mesh-longfast",
+      "state": "CA",
+      "name": "SoCal Mesh (LongFast, best-practices page)",
+      "area": "Orange County, Laguna, greater Southern California",
+      "status": "published",
+      "path": "us/ca/socal-mesh-longfast.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://socalmesh.org/"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    },
+    {
+      "id": "us/ca/socal-mesh-longturbo",
+      "state": "CA",
+      "name": "SoCal Mesh (LongTurbo, homepage default)",
+      "area": "Orange County, Laguna, greater Southern California",
+      "status": "published",
+      "path": "us/ca/socal-mesh-longturbo.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://socalmesh.org/"
+      },
+      "modemPreset": "LONG_TURBO",
+      "frequencySlot": 14
+    },
+    {
+      "id": "us/ca/visalia-mesh",
+      "state": "CA",
+      "name": "Visalia Mesh",
+      "area": "Visalia and Tulare County",
+      "status": "published",
+      "path": "us/ca/visalia-mesh.json",
+      "checked": "2026-11-18",
+      "contact": {
+        "type": "website",
+        "url": "https://visaliamesh.com/"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    }
+  ]
+}

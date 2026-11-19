@@ -1,0 +1,63 @@
+{
+  "id": "us/ca/socal-mesh-longfast",
+  "state": "CA",
+  "name": "SoCal Mesh (LongFast, best-practices page)",
+  "area": "Orange County, Laguna, greater Southern California",
+  "status": "published",
+  "sources": [
+    "https://socalmesh.org/help/best-practices/"
+  ],
+  "checked": "2026-11-18",
+  "contact": {
+    "type": "website",
+    "url": "https://socalmesh.org/"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 900,
+      "smartPosition": true,
+      "telemetrySecs": 1800
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 86400,
+      "smartPosition": true,
+      "telemetrySecs": 7200
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 3,
+      "nodeInfoSecs": 86400,
+      "positionSecs": 86400,
+      "smartPosition": true,
+      "telemetrySecs": 7200
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Recommended, so your node shows up on the community maps."
+  },
+  "notes": [
+    "Enter the slot explicitly rather than leaving it on 0.",
+    "Do not use the REPEATER role."
+  ]
+}
