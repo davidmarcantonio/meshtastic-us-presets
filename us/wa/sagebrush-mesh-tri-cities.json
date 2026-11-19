@@ -1,0 +1,36 @@
+{
+  "id": "us/wa/sagebrush-mesh-tri-cities",
+  "state": "WA",
+  "name": "Sagebrush Mesh (Tri-Cities)",
+  "area": "Tri-Cities: Kennewick, Pasco, Richland",
+  "status": "published",
+  "sources": [
+    "https://sagebrush-www.pages.dev/meshtastic/mediumfast"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://sagebrush-www.pages.dev/meshtastic/mediumfast"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 45,
+    "frequencyMHz": 913.125
+  },
+  "uses": {
+    "default": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3
+    }
+  },
+  "mqtt": {
+    "advice": "Optional."
+  },
+  "notes": [
+    "This MediumFast configuration is specific to the Tri-Cities part of the Sagebrush Mesh network."
+  ]
+}

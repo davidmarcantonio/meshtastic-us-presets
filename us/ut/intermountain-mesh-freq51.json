@@ -1,0 +1,59 @@
+{
+  "id": "us/ut/intermountain-mesh-freq51",
+  "state": "UT",
+  "name": "Intermountain Mesh (Freq51)",
+  "area": "Salt Lake Valley, Tooele County, Utah County, Davis and Weber counties; also Boise and Twin Falls, Idaho",
+  "status": "published",
+  "sources": [
+    "https://freq51.net/config",
+    "https://freq51.net/print"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/qmeeRPkq3g"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_FAST",
+    "modemPresetNum": 4,
+    "frequencySlot": 51,
+    "frequencyMHz": 914.625
+  },
+  "primaryChannel": {
+    "name": "Freq51",
+    "psk": "1A=="
+  },
+  "uses": {
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1,
+      "hopLimit": 7,
+      "nodeInfoSecs": 21600,
+      "positionSecs": 21600,
+      "telemetrySecs": 1800
+    },
+    "home": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 7,
+      "nodeInfoSecs": 21600,
+      "positionSecs": 21600,
+      "smartPosition": false,
+      "telemetrySecs": 1800
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "Turn on OK to MQTT so your node is listed on their network stats sites. The MQTT server address is given on Discord.",
+    "rootTopic": "msh/US/UT"
+  },
+  "notes": [
+    "The primary channel must be named exactly Freq51 with key 1A==. A radio left on the blank default channel will not work here.",
+    "They ask you to type channel names and keys by hand and not to import QR codes or URLs.",
+    "CLIENT_MUTE is for mobile, handheld or indoor radios; CLIENT is for stationary outdoor nodes. ROUTER and ROUTER_LATE are by coordination only.",
+    "Licensed (ham) mode must stay off on slot 51.",
+    "Settings are dated 2025-10-05 on their page."
+  ]
+}

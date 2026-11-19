@@ -1,0 +1,22 @@
+{
+  "id": "us/tx/austin-mesh",
+  "state": "TX",
+  "name": "Austin Mesh",
+  "area": "Austin area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/6a5Sv2s9bG",
+    "https://austinmesh.org/",
+    "https://austinmesh.pages.dev/join"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/6a5Sv2s9bG"
+  },
+  "notes": [
+    "Their join page gives no modem preset or frequency slot; ask in Discord.",
+    "It does publish: role CLIENT (CLIENT_MUTE for a node that isn't helping the network), start with 3 hops, node info, position and telemetry every hour, MQTT off and Ignore MQTT on."
+  ]
+}
