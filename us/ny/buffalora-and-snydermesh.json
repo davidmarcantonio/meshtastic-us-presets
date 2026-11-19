@@ -6,14 +6,12 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://buffalora.org"
+    "https://buffalora.org",
+    "https://discord.gg/Mh3tye7CNs"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://buffalora.org"
-  },
-  "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
-  ]
+    "type": "discord",
+    "url": "https://discord.gg/Mh3tye7CNs"
+  }
 }

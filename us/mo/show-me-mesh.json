@@ -3,17 +3,36 @@
   "state": "MO",
   "name": "Show Me Mesh",
   "area": "Jefferson City area",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.mo-mesh.com/",
     "https://www.mo-mesh.com"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://www.mo-mesh.com"
+    "type": "facebook",
+    "url": "https://www.facebook.com/groups/3864076280546910"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "MEDIUM_SLOW",
+    "modemPresetNum": 3,
+    "frequencySlot": 1,
+    "frequencyMHz": 902.125
+  },
+  "uses": {
+    "default": {
+      "hopLimit": 7,
+      "nodeInfoSecs": 10800
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "OK to MQTT on."
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Role: CLIENT or CLIENT_MUTE. Rebroadcast mode: All.",
+    "Their config guide names firmware 2.7.26."
   ]
 }

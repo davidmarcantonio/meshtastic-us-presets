@@ -6,14 +6,15 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://cimesh.net"
+    "https://cimesh.net",
+    "https://discord.gg/tm7wh7RjD7"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://cimesh.net"
+    "type": "discord",
+    "url": "https://discord.gg/tm7wh7RjD7"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "CIMesh moved primarily to MeshCore in summer 2026. Contact is the Indiana Mesh Discord."
   ]
 }

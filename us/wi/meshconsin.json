@@ -6,14 +6,16 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://meshconsin.org"
+    "https://meshconsin.org",
+    "https://discord.gg/f3cU7kPbHg"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://meshconsin.org"
+    "type": "discord",
+    "url": "https://discord.gg/f3cU7kPbHg"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their site gives 906.875 MHz but does not name the preset or slot.",
+    "It does publish: role CLIENT, 3 hops (4 for a home node behind a relay), intervals of at least 1 hour, Ignore MQTT on."
   ]
 }

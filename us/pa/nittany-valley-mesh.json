@@ -3,9 +3,8 @@
   "state": "PA",
   "name": "Nittany Valley Mesh",
   "area": "State College, Nittany Valley",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
     "https://nittanyvalleymesh.org/"
   ],
   "checked": "2026-11-19",
@@ -13,7 +12,26 @@
     "type": "website",
     "url": "https://nittanyvalleymesh.org/"
   },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "default": {
+      "role": "CLIENT",
+      "roleNum": 0
+    }
+  },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Keep the default primary channel unchanged.",
+    "Local secondary channel: NittanyMesh, 1-byte key NQ==.",
+    "CLIENT_MUTE or CLIENT_HIDDEN are acceptable alternatives."
   ]
 }

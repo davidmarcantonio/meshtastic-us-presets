@@ -6,15 +6,15 @@
   "status": "listed",
   "sources": [
     "https://meshtastic.org/docs/community/local-groups/",
-    "https://jaxmesh.com/"
+    "https://jaxmesh.com/",
+    "https://discord.gg/86uf2wTMwq"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://jaxmesh.com/"
+    "type": "discord",
+    "url": "https://discord.gg/86uf2wTMwq"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first.",
-    "Florida Mesh lists Jacksonville and Duval County as MediumFast since 2026-03-28; see the Florida Mesh (MediumFast) entry."
+    "Their site has dashboards but no settings. Florida Mesh lists Jacksonville and Duval County as MediumFast since 2026-03-28; see the Florida Mesh (MediumFast) entry."
   ]
 }

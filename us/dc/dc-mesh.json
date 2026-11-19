@@ -3,17 +3,25 @@
   "state": "DC",
   "name": "DC Mesh",
   "area": "Washington, DC",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://dcmesh.org/device-settings/",
     "https://dcmesh.org"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://dcmesh.org"
+    "type": "discord",
+    "url": "https://discord.gg/Bd9xfDB9Rm"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Their page says the default slot 0 is the same as slot 20.",
+    "A separate mesh south of DC uses slot 9."
   ]
 }

@@ -3,17 +3,49 @@
   "state": "MT",
   "name": "Montana Meshtastic Community",
   "area": "Montana",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://montanamesh.com/recommended-configuration-settings",
     "https://montanamesh.com/"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://montanamesh.com/"
+    "type": "discord",
+    "url": "https://discord.gg/SKmsDCraTV"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "uses": {
+    "default": {
+      "nodeInfoSecs": 10800,
+      "telemetrySecs": 10800
+    },
+    "everyday": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3,
+      "smartPosition": true
+    },
+    "home": {
+      "role": "CLIENT_BASE",
+      "roleNum": 12,
+      "hopLimit": 5
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1
+    }
+  },
+  "mqtt": {
+    "advice": "Off unless you set it up on purpose."
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Avoid hop limits above 6.",
+    "ROUTER and ROUTER_LATE only as part of a coordinated plan."
   ]
 }

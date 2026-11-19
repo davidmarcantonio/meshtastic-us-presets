@@ -3,17 +3,39 @@
   "state": "IL",
   "name": "Chicagoland Mesh",
   "area": "Chicago area",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://chicagolandmesh.org/guides/meshtastic/getting-started/configure/",
     "https://chicagolandmesh.org"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://chicagolandmesh.org"
+    "type": "discord",
+    "url": "https://chicagolandmesh.org/discord"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20,
+    "frequencyMHz": 906.875
+  },
+  "uses": {
+    "default": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 7,
+      "nodeInfoSecs": 10800
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1
+    }
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "LongFast is their recommended preset. Some nodes run LongTurbo on slot 14 (908.75 MHz); the two cannot talk to each other, so match the nodes you want to reach.",
+    "ROUTER_LATE for well-placed fixed relays; avoid ROUTER and REPEATER.",
+    "Channel and MQTT details are in their Local Channel and Setup MQTT guides."
   ]
 }

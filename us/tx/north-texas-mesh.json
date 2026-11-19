@@ -3,17 +3,44 @@
   "state": "TX",
   "name": "North Texas Mesh",
   "area": "Dallas, Fort Worth and North Texas",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://ntxmesh.com/join/",
+    "https://ntxmesh.com/coverage-map/",
     "https://ntxmesh.com"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://ntxmesh.com"
+    "type": "discord",
+    "url": "https://discord.gg/nGeQ8cbSM3"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "uses": {
+    "default": {
+      "role": "CLIENT",
+      "roleNum": 0,
+      "hopLimit": 3,
+      "nodeInfoSecs": 10800,
+      "positionSecs": 3600,
+      "smartPosition": true,
+      "telemetrySecs": 10800
+    },
+    "extra": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1
+    }
+  },
+  "mqtt": {
+    "advice": "MQTT off, and set nodes to ignore MQTT traffic."
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Most of North Texas runs LongFast, but some counties use a different preset. Check their Preset Map by County before configuring.",
+    "Use 4 hops for a home node that relays through a roof node; 5 only at the network edge."
   ]
 }

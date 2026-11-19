@@ -3,17 +3,38 @@
   "state": "IN",
   "name": "NWI Mesh Net",
   "area": "Northwest Indiana",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://nwimesh.net/",
     "https://NWIMesh.net"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://NWIMesh.net"
+    "type": "discord",
+    "url": "https://discord.gg/4wQ5SWPBfQ"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": null
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "default": {
+      "hopLimit": 7
+    }
+  },
+  "mqtt": {
+    "advice": "They run their own MQTT server; settings are on their MQTT page.",
+    "server": "mqtt.nwimesh.net",
+    "rootTopic": "msh/US/IN/NWI"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "More detail in their settings guides (roles, position, power)."
   ]
 }

@@ -3,17 +3,50 @@
   "state": "WA",
   "name": "Puget Mesh",
   "area": "Puget Sound region",
-  "status": "listed",
+  "status": "published",
   "sources": [
-    "https://meshtastic.org/docs/community/local-groups/",
+    "https://pugetmesh.org/meshtastic/config/",
     "https://PugetMesh.org"
   ],
   "checked": "2026-11-19",
   "contact": {
-    "type": "website",
-    "url": "https://PugetMesh.org"
+    "type": "discord",
+    "url": "https://discord.gg/ANvUg3AyZt"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20,
+    "frequencyMHz": 906.875
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "uses": {
+    "default": {
+      "hopLimit": 3
+    },
+    "everyday": {
+      "role": "CLIENT_MUTE",
+      "roleNum": 1
+    },
+    "home": {
+      "nodeInfoSecs": 10800,
+      "positionSecs": 18000
+    }
+  },
+  "mqtt": {
+    "okToMqtt": true,
+    "advice": "OK to MQTT on. Uplink on, downlink off so internet traffic doesn't flood LongFast.",
+    "server": "meshtastic.pugetmesh.org",
+    "rootTopic": "msh/US"
   },
   "notes": [
-    "This group has its own website. It has not been checked for published settings yet; look there first."
+    "Fixed nodes: usually CLIENT or CLIENT_MUTE. Never ROUTER or REPEATER without talking to the group.",
+    "They publish community channels (PS-Mesh!, PS-MQTT!) with keys on their config page; type names and keys by hand, they are case-sensitive.",
+    "Their config page is dated 2025-11-27. A ShortFast (slot 68) trial ran in May 2025."
   ]
 }
