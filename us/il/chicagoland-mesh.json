@@ -1,0 +1,19 @@
+{
+  "id": "us/il/chicagoland-mesh",
+  "state": "IL",
+  "name": "Chicagoland Mesh",
+  "area": "Chicago area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://chicagolandmesh.org"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://chicagolandmesh.org"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

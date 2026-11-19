@@ -1,0 +1,31 @@
+{
+  "id": "us/me/maine-mesh",
+  "state": "ME",
+  "name": "Maine Mesh",
+  "area": "Maine (statewide)",
+  "status": "published",
+  "sources": [
+    "https://github.com/JFRHorton/MaineMesh"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/2Uhz4AzB8E"
+  },
+  "lora": {
+    "region": "US",
+    "regionNum": 1,
+    "modemPreset": "LONG_FAST",
+    "modemPresetNum": 0,
+    "frequencySlot": 20
+  },
+  "primaryChannel": {
+    "name": "",
+    "psk": "AQ=="
+  },
+  "notes": [
+    "They also run a Maine-specific secondary channel: name MaineNet, key Vg== (1 byte).",
+    "Backbone nodes use ROUTER rather than REPEATER.",
+    "Also on Facebook: facebook.com/groups/mainemesh."
+  ]
+}
