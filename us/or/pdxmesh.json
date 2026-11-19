@@ -1,0 +1,19 @@
+{
+  "id": "us/or/pdxmesh",
+  "state": "OR",
+  "name": "PDXMesh",
+  "area": "Portland and Southwest Washington",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://pdxmesh.com"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://pdxmesh.com"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

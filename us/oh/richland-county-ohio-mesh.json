@@ -1,0 +1,16 @@
+{
+  "id": "us/oh/richland-county-ohio-mesh",
+  "state": "OH",
+  "name": "Richland County Ohio Mesh",
+  "area": "Richland County",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.facebook.com/groups/710526535393221"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "facebook",
+    "url": "https://www.facebook.com/groups/710526535393221"
+  }
+}
