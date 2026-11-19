@@ -1,0 +1,19 @@
+{
+  "id": "us/de/delaware-meshtastic-user-group",
+  "state": "DE",
+  "name": "Delaware Meshtastic User Group",
+  "area": "Delaware",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://deme.sh"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://deme.sh"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

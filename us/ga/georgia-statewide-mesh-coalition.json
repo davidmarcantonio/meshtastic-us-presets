@@ -1,0 +1,19 @@
+{
+  "id": "us/ga/georgia-statewide-mesh-coalition",
+  "state": "GA",
+  "name": "Georgia Statewide Mesh Coalition",
+  "area": "Georgia (statewide)",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://gamesh.net"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://gamesh.net"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

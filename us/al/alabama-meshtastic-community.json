@@ -1,0 +1,16 @@
+{
+  "id": "us/al/alabama-meshtastic-community",
+  "state": "AL",
+  "name": "Alabama Meshtastic Community",
+  "area": "Alabama (statewide)",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/HdK9Rhr2ch"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/HdK9Rhr2ch"
+  }
+}

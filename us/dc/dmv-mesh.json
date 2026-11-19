@@ -1,0 +1,16 @@
+{
+  "id": "us/dc/dmv-mesh",
+  "state": "DC",
+  "name": "DMV Mesh",
+  "area": "Washington DC, Maryland and Virginia",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.reddit.com/r/Meshtastic_DMV_Users/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "reddit",
+    "url": "https://www.reddit.com/r/Meshtastic_DMV_Users/"
+  }
+}

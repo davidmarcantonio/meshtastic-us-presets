@@ -1,0 +1,22 @@
+{
+  "id": "us/az/arizona-meshtastic-community",
+  "state": "AZ",
+  "name": "Arizona Meshtastic Community",
+  "area": "Arizona (statewide)",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/HrKtyuFEQk",
+    "https://azmsh.net",
+    "https://azmsh.net/docs/recommended-settings.html"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/HrKtyuFEQk"
+  },
+  "notes": [
+    "The modem preset and frequency slot are shared only in their Discord; join it before configuring.",
+    "Their site (azmsh.net) does publish roles and intervals: CLIENT_MUTE for anything mobile, CLIENT for a home or rooftop node, node info every 12 hours, OK to MQTT on."
+  ]
+}

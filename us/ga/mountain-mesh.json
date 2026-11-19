@@ -1,0 +1,20 @@
+{
+  "id": "us/ga/mountain-mesh",
+  "state": "GA",
+  "name": "Mountain Mesh",
+  "area": "Metro Atlanta, Athens and North Georgia",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://mtnme.sh"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://mtnme.sh"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first.",
+    "Mountain Mesh moved to MediumFast on 2025-10-01; their own page is mtnme.sh/mediumfast."
+  ]
+}
