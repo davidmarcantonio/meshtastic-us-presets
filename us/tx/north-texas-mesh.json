@@ -1,0 +1,19 @@
+{
+  "id": "us/tx/north-texas-mesh",
+  "state": "TX",
+  "name": "North Texas Mesh",
+  "area": "Dallas, Fort Worth and North Texas",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://ntxmesh.com"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://ntxmesh.com"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "us/wa/spokane-mesh-network",
+  "state": "WA",
+  "name": "Spokane Mesh Network",
+  "area": "Spokane area",
+  "status": "listed",
+  "sources": [
+    "https://groups.google.com/g/spokanemeshnet/c/9861SZsRXNs"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "other",
+    "url": "https://groups.google.com/g/spokanemeshnet"
+  },
+  "notes": [
+    "A December 2025 post to their Google Group announced new recommended radio settings; read it there."
+  ]
+}

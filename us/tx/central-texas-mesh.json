@@ -1,0 +1,16 @@
+{
+  "id": "us/tx/central-texas-mesh",
+  "state": "TX",
+  "name": "Central Texas Mesh",
+  "area": "Central Texas",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://discord.gg/StsH5BncsW"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "discord",
+    "url": "https://discord.gg/StsH5BncsW"
+  }
+}

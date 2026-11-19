@@ -1,0 +1,19 @@
+{
+  "id": "us/wi/dc414",
+  "state": "WI",
+  "name": "dc414",
+  "area": "Milwaukee area",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://www.dc414.org/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://www.dc414.org/"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}

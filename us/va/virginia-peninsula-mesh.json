@@ -1,0 +1,19 @@
+{
+  "id": "us/va/virginia-peninsula-mesh",
+  "state": "VA",
+  "name": "Virginia Peninsula Mesh",
+  "area": "Virginia Peninsula",
+  "status": "listed",
+  "sources": [
+    "https://meshtastic.org/docs/community/local-groups/",
+    "https://vpmesh.org/"
+  ],
+  "checked": "2026-11-19",
+  "contact": {
+    "type": "website",
+    "url": "https://vpmesh.org/"
+  },
+  "notes": [
+    "This group has its own website. It has not been checked for published settings yet; look there first."
+  ]
+}
