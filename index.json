@@ -1,15 +1,323 @@
 {
   "schema": "schema/community.schema.json",
   "license": "CC0-1.0",
-  "count": 14,
+  "count": 118,
   "states": {
+    "AK": {
+      "name": "Alaska",
+      "published": 0,
+      "listed": 1
+    },
+    "AL": {
+      "name": "Alabama",
+      "published": 0,
+      "listed": 2
+    },
+    "AR": {
+      "name": "Arkansas",
+      "published": 0,
+      "listed": 2
+    },
+    "AZ": {
+      "name": "Arizona",
+      "published": 0,
+      "listed": 1
+    },
     "CA": {
       "name": "California",
       "published": 6,
-      "listed": 8
+      "listed": 10
+    },
+    "CO": {
+      "name": "Colorado",
+      "published": 0,
+      "listed": 3
+    },
+    "CT": {
+      "name": "Connecticut",
+      "published": 0,
+      "listed": 1
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "published": 0,
+      "listed": 2
+    },
+    "DE": {
+      "name": "Delaware",
+      "published": 0,
+      "listed": 1
+    },
+    "FL": {
+      "name": "Florida",
+      "published": 2,
+      "listed": 2
+    },
+    "GA": {
+      "name": "Georgia",
+      "published": 0,
+      "listed": 4
+    },
+    "HI": {
+      "name": "Hawaii",
+      "published": 0,
+      "listed": 1
+    },
+    "IA": {
+      "name": "Iowa",
+      "published": 0,
+      "listed": 2
+    },
+    "ID": {
+      "name": "Idaho",
+      "published": 0,
+      "listed": 1
+    },
+    "IL": {
+      "name": "Illinois",
+      "published": 0,
+      "listed": 2
+    },
+    "IN": {
+      "name": "Indiana",
+      "published": 0,
+      "listed": 4
+    },
+    "KS": {
+      "name": "Kansas",
+      "published": 0,
+      "listed": 1
+    },
+    "KY": {
+      "name": "Kentucky",
+      "published": 0,
+      "listed": 1
+    },
+    "LA": {
+      "name": "Louisiana",
+      "published": 0,
+      "listed": 1
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "published": 1,
+      "listed": 4
+    },
+    "MD": {
+      "name": "Maryland",
+      "published": 0,
+      "listed": 1
+    },
+    "ME": {
+      "name": "Maine",
+      "published": 1,
+      "listed": 0
+    },
+    "MI": {
+      "name": "Michigan",
+      "published": 0,
+      "listed": 1
+    },
+    "MN": {
+      "name": "Minnesota",
+      "published": 1,
+      "listed": 0
+    },
+    "MO": {
+      "name": "Missouri",
+      "published": 0,
+      "listed": 5
+    },
+    "MS": {
+      "name": "Mississippi",
+      "published": 0,
+      "listed": 1
+    },
+    "MT": {
+      "name": "Montana",
+      "published": 0,
+      "listed": 1
+    },
+    "NC": {
+      "name": "North Carolina",
+      "published": 0,
+      "listed": 2
+    },
+    "ND": {
+      "name": "North Dakota",
+      "published": 0,
+      "listed": 1
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "published": 0,
+      "listed": 1
+    },
+    "NM": {
+      "name": "New Mexico",
+      "published": 0,
+      "listed": 1
+    },
+    "NV": {
+      "name": "Nevada",
+      "published": 1,
+      "listed": 2
+    },
+    "NY": {
+      "name": "New York",
+      "published": 0,
+      "listed": 6
+    },
+    "OH": {
+      "name": "Ohio",
+      "published": 0,
+      "listed": 6
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "published": 0,
+      "listed": 1
+    },
+    "OR": {
+      "name": "Oregon",
+      "published": 0,
+      "listed": 4
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "published": 0,
+      "listed": 5
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "published": 0,
+      "listed": 1
+    },
+    "SC": {
+      "name": "South Carolina",
+      "published": 0,
+      "listed": 1
+    },
+    "SD": {
+      "name": "South Dakota",
+      "published": 0,
+      "listed": 2
+    },
+    "TN": {
+      "name": "Tennessee",
+      "published": 0,
+      "listed": 1
+    },
+    "TX": {
+      "name": "Texas",
+      "published": 0,
+      "listed": 5
+    },
+    "UT": {
+      "name": "Utah",
+      "published": 1,
+      "listed": 0
+    },
+    "VA": {
+      "name": "Virginia",
+      "published": 0,
+      "listed": 3
+    },
+    "WA": {
+      "name": "Washington",
+      "published": 1,
+      "listed": 3
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "published": 0,
+      "listed": 3
+    },
+    "WY": {
+      "name": "Wyoming",
+      "published": 0,
+      "listed": 1
     }
   },
   "communities": [
+    {
+      "id": "us/ak/anchorage-meshtastic-community",
+      "state": "AK",
+      "name": "Anchorage Meshtastic Community",
+      "area": "Anchorage area",
+      "status": "listed",
+      "path": "us/ak/anchorage-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://anchornode.club"
+      }
+    },
+    {
+      "id": "us/al/alabama-meshtastic-community",
+      "state": "AL",
+      "name": "Alabama Meshtastic Community",
+      "area": "Alabama (statewide)",
+      "status": "listed",
+      "path": "us/al/alabama-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/HdK9Rhr2ch"
+      }
+    },
+    {
+      "id": "us/al/birmingham-mesh",
+      "state": "AL",
+      "name": "Birmingham Mesh",
+      "area": "Birmingham area",
+      "status": "listed",
+      "path": "us/al/birmingham-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://birminghammesh.org/"
+      }
+    },
+    {
+      "id": "us/ar/central-arkansas-mesh",
+      "state": "AR",
+      "name": "Central Arkansas",
+      "area": "Little Rock and central Arkansas",
+      "status": "listed",
+      "path": "us/ar/central-arkansas-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://lrme.sh"
+      }
+    },
+    {
+      "id": "us/ar/fort-smith-mesh",
+      "state": "AR",
+      "name": "Fort Smith Mesh",
+      "area": "Fort Smith area",
+      "status": "listed",
+      "path": "us/ar/fort-smith-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.com/invite/nwsvcXeqMX"
+      }
+    },
+    {
+      "id": "us/az/arizona-meshtastic-community",
+      "state": "AZ",
+      "name": "Arizona Meshtastic Community",
+      "area": "Arizona (statewide)",
+      "status": "listed",
+      "path": "us/az/arizona-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/HrKtyuFEQk"
+      }
+    },
     {
       "id": "us/ca/altamesh",
       "state": "CA",
@@ -80,6 +388,32 @@
       },
       "modemPreset": "LONG_MODERATE",
       "frequencySlot": null
+    },
+    {
+      "id": "us/ca/inter-canyon-mesh",
+      "state": "CA",
+      "name": "Inter-Canyon Mesh",
+      "area": "Orange County canyons",
+      "status": "listed",
+      "path": "us/ca/inter-canyon-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://icmesh.com"
+      }
+    },
+    {
+      "id": "us/ca/laguna-mesh",
+      "state": "CA",
+      "name": "Laguna Mesh",
+      "area": "Laguna Beach area, Orange County",
+      "status": "listed",
+      "path": "us/ca/laguna-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://lagunamesh.com"
+      }
     },
     {
       "id": "us/ca/santa-cruz-county",
@@ -203,6 +537,1270 @@
       },
       "modemPreset": "LONG_FAST",
       "frequencySlot": 20
+    },
+    {
+      "id": "us/co/colorado-mesh",
+      "state": "CO",
+      "name": "Colorado Mesh",
+      "area": "Colorado (statewide)",
+      "status": "listed",
+      "path": "us/co/colorado-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://coloradomesh.org"
+      }
+    },
+    {
+      "id": "us/co/colorado-springs-meshtastic-network",
+      "state": "CO",
+      "name": "Colorado Springs Meshtastic Network",
+      "area": "Colorado Springs area",
+      "status": "listed",
+      "path": "us/co/colorado-springs-meshtastic-network.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/cosmeshtastic"
+      }
+    },
+    {
+      "id": "us/co/northern-colorado-mesh-group",
+      "state": "CO",
+      "name": "Northern Colorado Mesh Group",
+      "area": "Northern Colorado",
+      "status": "listed",
+      "path": "us/co/northern-colorado-mesh-group.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://nocomesh.org"
+      }
+    },
+    {
+      "id": "us/ct/ct-mesh",
+      "state": "CT",
+      "name": "CT Mesh",
+      "area": "Connecticut",
+      "status": "listed",
+      "path": "us/ct/ct-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://ctmesh.org"
+      }
+    },
+    {
+      "id": "us/dc/dc-mesh",
+      "state": "DC",
+      "name": "DC Mesh",
+      "area": "Washington, DC",
+      "status": "listed",
+      "path": "us/dc/dc-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://dcmesh.org"
+      }
+    },
+    {
+      "id": "us/dc/dmv-mesh",
+      "state": "DC",
+      "name": "DMV Mesh",
+      "area": "Washington DC, Maryland and Virginia",
+      "status": "listed",
+      "path": "us/dc/dmv-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "reddit",
+        "url": "https://www.reddit.com/r/Meshtastic_DMV_Users/"
+      }
+    },
+    {
+      "id": "us/de/delaware-meshtastic-user-group",
+      "state": "DE",
+      "name": "Delaware Meshtastic User Group",
+      "area": "Delaware",
+      "status": "listed",
+      "path": "us/de/delaware-meshtastic-user-group.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://deme.sh"
+      }
+    },
+    {
+      "id": "us/fl/florida-mesh-longfast",
+      "state": "FL",
+      "name": "Florida Mesh (LongFast, most of the state)",
+      "area": "North West, North, Central West and Central East Florida, and South Florida outside the southeast coast",
+      "status": "published",
+      "path": "us/fl/florida-mesh-longfast.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://areyoumeshingwith.us/"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    },
+    {
+      "id": "us/fl/florida-mesh-mediumfast",
+      "state": "FL",
+      "name": "Florida Mesh (MediumFast, southeast coast and Jacksonville)",
+      "area": "Southeast coast from Sebastian to Layton Key (Monroe through Okeechobee counties); Jacksonville and Duval County",
+      "status": "published",
+      "path": "us/fl/florida-mesh-mediumfast.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://areyoumeshingwith.us/"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 45
+    },
+    {
+      "id": "us/fl/jaxmesh",
+      "state": "FL",
+      "name": "JAXMesh",
+      "area": "Jacksonville",
+      "status": "listed",
+      "path": "us/fl/jaxmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://jaxmesh.com/"
+      }
+    },
+    {
+      "id": "us/fl/space-coast-mesh",
+      "state": "FL",
+      "name": "Space Coast Mesh",
+      "area": "Brevard County, Space Coast",
+      "status": "listed",
+      "path": "us/fl/space-coast-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://scmesh.org/"
+      }
+    },
+    {
+      "id": "us/ga/csra-mesh",
+      "state": "GA",
+      "name": "CSRA Mesh",
+      "area": "Augusta, GA and North Augusta, SC",
+      "status": "listed",
+      "path": "us/ga/csra-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/rQSTQDZKgs"
+      }
+    },
+    {
+      "id": "us/ga/georgia-statewide-mesh-coalition",
+      "state": "GA",
+      "name": "Georgia Statewide Mesh Coalition",
+      "area": "Georgia (statewide)",
+      "status": "listed",
+      "path": "us/ga/georgia-statewide-mesh-coalition.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://gamesh.net"
+      }
+    },
+    {
+      "id": "us/ga/mountain-mesh",
+      "state": "GA",
+      "name": "Mountain Mesh",
+      "area": "Metro Atlanta, Athens and North Georgia",
+      "status": "listed",
+      "path": "us/ga/mountain-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://mtnme.sh"
+      }
+    },
+    {
+      "id": "us/ga/segamesh",
+      "state": "GA",
+      "name": "Southeast Georgia Mesh (SEGAMesh)",
+      "area": "Southeast Georgia",
+      "status": "listed",
+      "path": "us/ga/segamesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "simplex",
+        "url": "https://smp8.simplex.im/g#1k2HC-3aeDnq-U3M3xpAx6GUGSKEXXX1ZylkYswlWgo"
+      }
+    },
+    {
+      "id": "us/hi/hawaii-meshnet",
+      "state": "HI",
+      "name": "Hawaii Meshnet",
+      "area": "Hawaii",
+      "status": "listed",
+      "path": "us/hi/hawaii-meshnet.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.hawaiimesh.net/"
+      }
+    },
+    {
+      "id": "us/ia/iowa-mesh",
+      "state": "IA",
+      "name": "Iowa Mesh",
+      "area": "Iowa",
+      "status": "listed",
+      "path": "us/ia/iowa-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://iowamesh.org"
+      }
+    },
+    {
+      "id": "us/ia/siouxland-mesh",
+      "state": "IA",
+      "name": "Siouxland Mesh",
+      "area": "Sioux City area",
+      "status": "listed",
+      "path": "us/ia/siouxland-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/NRcUq9JDnc"
+      }
+    },
+    {
+      "id": "us/id/idaho-mesh",
+      "state": "ID",
+      "name": "Idaho Mesh",
+      "area": "Idaho",
+      "status": "listed",
+      "path": "us/id/idaho-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.idahomesh.com/"
+      }
+    },
+    {
+      "id": "us/il/central-illinois-mesh",
+      "state": "IL",
+      "name": "Central Illinois Mesh",
+      "area": "Central Illinois",
+      "status": "listed",
+      "path": "us/il/central-illinois-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/XXpMeCAJye"
+      }
+    },
+    {
+      "id": "us/il/chicagoland-mesh",
+      "state": "IL",
+      "name": "Chicagoland Mesh",
+      "area": "Chicago area",
+      "status": "listed",
+      "path": "us/il/chicagoland-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://chicagolandmesh.org"
+      }
+    },
+    {
+      "id": "us/in/b-town-mesh",
+      "state": "IN",
+      "name": "B-Town Mesh",
+      "area": "Bloomington area",
+      "status": "listed",
+      "path": "us/in/b-town-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://btownmesh.org"
+      }
+    },
+    {
+      "id": "us/in/cimesh",
+      "state": "IN",
+      "name": "CIMesh",
+      "area": "Indianapolis and central Indiana",
+      "status": "listed",
+      "path": "us/in/cimesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://cimesh.net"
+      }
+    },
+    {
+      "id": "us/in/hoosier-mesh",
+      "state": "IN",
+      "name": "Hoosier Mesh",
+      "area": "Indiana",
+      "status": "listed",
+      "path": "us/in/hoosier-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://hoosiermesh.org"
+      }
+    },
+    {
+      "id": "us/in/nwi-mesh-net",
+      "state": "IN",
+      "name": "NWI Mesh Net",
+      "area": "Northwest Indiana",
+      "status": "listed",
+      "path": "us/in/nwi-mesh-net.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://NWIMesh.net"
+      }
+    },
+    {
+      "id": "us/ks/seckc",
+      "state": "KS",
+      "name": "SecKC",
+      "area": "Kansas City and surrounding cities",
+      "status": "listed",
+      "path": "us/ks/seckc.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://ks3ckc.radio/meshtastic"
+      }
+    },
+    {
+      "id": "us/ky/kentuckiana-mesh",
+      "state": "KY",
+      "name": "Kentuckiana Mesh",
+      "area": "Louisville, KY and Southern Indiana",
+      "status": "listed",
+      "path": "us/ky/kentuckiana-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/RVb3pDPEZd"
+      }
+    },
+    {
+      "id": "us/la/louisiana-meshtastic-community",
+      "state": "LA",
+      "name": "Louisiana Meshtastic Community",
+      "area": "Louisiana",
+      "status": "listed",
+      "path": "us/la/louisiana-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/EvMTnWRG5p"
+      }
+    },
+    {
+      "id": "us/ma/boston-meshnet",
+      "state": "MA",
+      "name": "Boston Meshnet",
+      "area": "Boston area",
+      "status": "listed",
+      "path": "us/ma/boston-meshnet.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "github",
+        "url": "https://github.com/Darachnid/Boston-Meshnet"
+      }
+    },
+    {
+      "id": "us/ma/greater-boston-mesh",
+      "state": "MA",
+      "name": "Greater Boston Mesh",
+      "area": "Greater Boston",
+      "status": "listed",
+      "path": "us/ma/greater-boston-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/MUVASVEEES"
+      }
+    },
+    {
+      "id": "us/ma/new-england-mesh",
+      "state": "MA",
+      "name": "New England Mesh",
+      "area": "Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont",
+      "status": "listed",
+      "path": "us/ma/new-england-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/mdv5ZfRucQ"
+      }
+    },
+    {
+      "id": "us/ma/pioneer-valley-mesh",
+      "state": "MA",
+      "name": "Pioneer Valley Meshtastic Network",
+      "area": "Pioneer Valley, western Massachusetts",
+      "status": "published",
+      "path": "us/ma/pioneer-valley-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://pvmesh.org"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    },
+    {
+      "id": "us/ma/southcoast-mesh",
+      "state": "MA",
+      "name": "SouthCoast Mesh",
+      "area": "South Coast of Massachusetts",
+      "status": "listed",
+      "path": "us/ma/southcoast-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://southcoastmesh.com"
+      }
+    },
+    {
+      "id": "us/md/maryland-mesh",
+      "state": "MD",
+      "name": "Maryland Mesh",
+      "area": "Maryland",
+      "status": "listed",
+      "path": "us/md/maryland-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://marylandmesh.org"
+      }
+    },
+    {
+      "id": "us/me/maine-mesh",
+      "state": "ME",
+      "name": "Maine Mesh",
+      "area": "Maine (statewide)",
+      "status": "published",
+      "path": "us/me/maine-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/2Uhz4AzB8E"
+      },
+      "modemPreset": "LONG_FAST",
+      "frequencySlot": 20
+    },
+    {
+      "id": "us/mi/michigan-meshtastic-network",
+      "state": "MI",
+      "name": "Michigan Meshtastic Network",
+      "area": "Michigan",
+      "status": "listed",
+      "path": "us/mi/michigan-meshtastic-network.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/3A5RREcBcc"
+      }
+    },
+    {
+      "id": "us/mn/msp-mesh",
+      "state": "MN",
+      "name": "MSP Mesh",
+      "area": "Twin Cities, Greater Minnesota and western Wisconsin",
+      "status": "published",
+      "path": "us/mn/msp-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://mspmesh.org/"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": null
+    },
+    {
+      "id": "us/mo/kansas-city-meshtastic-group",
+      "state": "MO",
+      "name": "Kansas City Meshtastic Group",
+      "area": "Kansas City area",
+      "status": "listed",
+      "path": "us/mo/kansas-city-meshtastic-group.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "facebook",
+        "url": "https://www.facebook.com/share/XZ9jnhxy1YT4wWqC/"
+      }
+    },
+    {
+      "id": "us/mo/lzmesh",
+      "state": "MO",
+      "name": "LZMesh",
+      "area": "Southwest Missouri",
+      "status": "listed",
+      "path": "us/mo/lzmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.lzmesh.com"
+      }
+    },
+    {
+      "id": "us/mo/meshstl",
+      "state": "MO",
+      "name": "MeshSTL",
+      "area": "St. Louis area",
+      "status": "listed",
+      "path": "us/mo/meshstl.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/QYxUdKZpBd"
+      }
+    },
+    {
+      "id": "us/mo/missouri-mesh",
+      "state": "MO",
+      "name": "Missouri Mesh",
+      "area": "Missouri",
+      "status": "listed",
+      "path": "us/mo/missouri-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://missourimesh.org"
+      }
+    },
+    {
+      "id": "us/mo/show-me-mesh",
+      "state": "MO",
+      "name": "Show Me Mesh",
+      "area": "Jefferson City area",
+      "status": "listed",
+      "path": "us/mo/show-me-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.mo-mesh.com"
+      }
+    },
+    {
+      "id": "us/ms/mississippi-meshtastic-community",
+      "state": "MS",
+      "name": "Mississippi Meshtastic Community",
+      "area": "Mississippi",
+      "status": "listed",
+      "path": "us/ms/mississippi-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/xmsDfx5Jcr"
+      }
+    },
+    {
+      "id": "us/mt/montana-meshtastic-community",
+      "state": "MT",
+      "name": "Montana Meshtastic Community",
+      "area": "Montana",
+      "status": "listed",
+      "path": "us/mt/montana-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://montanamesh.com/"
+      }
+    },
+    {
+      "id": "us/nc/graham-county-mesh",
+      "state": "NC",
+      "name": "Graham County Mesh",
+      "area": "Graham County",
+      "status": "listed",
+      "path": "us/nc/graham-county-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://backcountrysignal.org"
+      }
+    },
+    {
+      "id": "us/nc/meshavl",
+      "state": "NC",
+      "name": "MeshAVL",
+      "area": "Asheville area",
+      "status": "listed",
+      "path": "us/nc/meshavl.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshavl.com"
+      }
+    },
+    {
+      "id": "us/nd/north-dakota-mesh",
+      "state": "ND",
+      "name": "North Dakota Mesh",
+      "area": "North Dakota",
+      "status": "listed",
+      "path": "us/nd/north-dakota-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/JUBrZepkaM"
+      }
+    },
+    {
+      "id": "us/nh/nhmesh",
+      "state": "NH",
+      "name": "NHMesh",
+      "area": "New Hampshire",
+      "status": "listed",
+      "path": "us/nh/nhmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/PkbHWSEXBv"
+      }
+    },
+    {
+      "id": "us/nm/albuquerque-mesh",
+      "state": "NM",
+      "name": "Albuquerque Mesh",
+      "area": "Albuquerque area",
+      "status": "listed",
+      "path": "us/nm/albuquerque-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.abqm.net"
+      }
+    },
+    {
+      "id": "us/nv/lasmesh",
+      "state": "NV",
+      "name": "LASmesh",
+      "area": "Las Vegas area",
+      "status": "listed",
+      "path": "us/nv/lasmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://lasmesh.com"
+      }
+    },
+    {
+      "id": "us/nv/meshenvy",
+      "state": "NV",
+      "name": "MeshEnvy",
+      "area": "Reno, Carson City, northern and central Nevada",
+      "status": "published",
+      "path": "us/nv/meshenvy.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshenvy.org"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 45
+    },
+    {
+      "id": "us/nv/vegasmesh",
+      "state": "NV",
+      "name": "VegasMesh",
+      "area": "Las Vegas area",
+      "status": "listed",
+      "path": "us/nv/vegasmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/vUmWuZxYPh"
+      }
+    },
+    {
+      "id": "us/ny/buffalora-and-snydermesh",
+      "state": "NY",
+      "name": "BuffaLoRa and SnyderMesh",
+      "area": "Buffalo area",
+      "status": "listed",
+      "path": "us/ny/buffalora-and-snydermesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://buffalora.org"
+      }
+    },
+    {
+      "id": "us/ny/cnymesh",
+      "state": "NY",
+      "name": "CNYMesh",
+      "area": "Syracuse and surrounding counties",
+      "status": "listed",
+      "path": "us/ny/cnymesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://cnymesh.org"
+      }
+    },
+    {
+      "id": "us/ny/nyme-sh",
+      "state": "NY",
+      "name": "New York Mesh (nyme.sh)",
+      "area": "New York City metro area",
+      "status": "listed",
+      "path": "us/ny/nyme-sh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://nyme.sh"
+      }
+    },
+    {
+      "id": "us/ny/rocmesh",
+      "state": "NY",
+      "name": "ROCMesh",
+      "area": "Rochester area",
+      "status": "listed",
+      "path": "us/ny/rocmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://rocmesh.com/"
+      }
+    },
+    {
+      "id": "us/ny/southern-tier-mesh",
+      "state": "NY",
+      "name": "Southern Tier Mesh",
+      "area": "Southern Tier",
+      "status": "listed",
+      "path": "us/ny/southern-tier-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://stmesh.net"
+      }
+    },
+    {
+      "id": "us/ny/upstate-mesh",
+      "state": "NY",
+      "name": "Upstate Mesh",
+      "area": "Capital Region",
+      "status": "listed",
+      "path": "us/ny/upstate-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.upstatemesh.org/"
+      }
+    },
+    {
+      "id": "us/oh/central-ohio-mesh",
+      "state": "OH",
+      "name": "Central Ohio Mesh",
+      "area": "Columbus metro area",
+      "status": "listed",
+      "path": "us/oh/central-ohio-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshcolumb.us/"
+      }
+    },
+    {
+      "id": "us/oh/cincy-mesh",
+      "state": "OH",
+      "name": "Cincy Mesh",
+      "area": "Cincinnati area",
+      "status": "listed",
+      "path": "us/oh/cincy-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.cincymesh.org"
+      }
+    },
+    {
+      "id": "us/oh/dayton-mesh",
+      "state": "OH",
+      "name": "Dayton Mesh",
+      "area": "Dayton area",
+      "status": "listed",
+      "path": "us/oh/dayton-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://daytonmesh.org/"
+      }
+    },
+    {
+      "id": "us/oh/northeast-ohio-mesh",
+      "state": "OH",
+      "name": "Northeast Ohio Mesh",
+      "area": "Cleveland and Akron area",
+      "status": "listed",
+      "path": "us/oh/northeast-ohio-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://neome.sh/"
+      }
+    },
+    {
+      "id": "us/oh/northwest-ohio-mesh",
+      "state": "OH",
+      "name": "Northwest Ohio Mesh",
+      "area": "Toledo area",
+      "status": "listed",
+      "path": "us/oh/northwest-ohio-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://nwomesh.org/"
+      }
+    },
+    {
+      "id": "us/oh/richland-county-ohio-mesh",
+      "state": "OH",
+      "name": "Richland County Ohio Mesh",
+      "area": "Richland County",
+      "status": "listed",
+      "path": "us/oh/richland-county-ohio-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/710526535393221"
+      }
+    },
+    {
+      "id": "us/ok/oklahoma-meshtastic-group",
+      "state": "OK",
+      "name": "Oklahoma Meshtastic Group",
+      "area": "Oklahoma",
+      "status": "listed",
+      "path": "us/ok/oklahoma-meshtastic-group.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "facebook",
+        "url": "https://www.facebook.com/groups/942404880478488"
+      }
+    },
+    {
+      "id": "us/or/meshoregon",
+      "state": "OR",
+      "name": "MeshOregon",
+      "area": "Oregon",
+      "status": "listed",
+      "path": "us/or/meshoregon.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshoregon.com"
+      }
+    },
+    {
+      "id": "us/or/pdxmesh",
+      "state": "OR",
+      "name": "PDXMesh",
+      "area": "Portland and Southwest Washington",
+      "status": "listed",
+      "path": "us/or/pdxmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://pdxmesh.com"
+      }
+    },
+    {
+      "id": "us/or/southern-oregon-meshtastic-community",
+      "state": "OR",
+      "name": "Southern Oregon Meshtastic Community",
+      "area": "Southern Oregon",
+      "status": "listed",
+      "path": "us/or/southern-oregon-meshtastic-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://sites.google.com/view/someshtastic/home"
+      }
+    },
+    {
+      "id": "us/or/willamette-valley-mesh",
+      "state": "OR",
+      "name": "Willamette Valley Mesh",
+      "area": "Eugene and Springfield",
+      "status": "listed",
+      "path": "us/or/willamette-valley-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/gf4mShtJz4"
+      }
+    },
+    {
+      "id": "us/pa/bucks-county-mesh-group",
+      "state": "PA",
+      "name": "Bucks County Mesh Group",
+      "area": "Bucks County",
+      "status": "listed",
+      "path": "us/pa/bucks-county-mesh-group.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://bucksmesh.net"
+      }
+    },
+    {
+      "id": "us/pa/nittany-valley-mesh",
+      "state": "PA",
+      "name": "Nittany Valley Mesh",
+      "area": "State College, Nittany Valley",
+      "status": "listed",
+      "path": "us/pa/nittany-valley-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://nittanyvalleymesh.org/"
+      }
+    },
+    {
+      "id": "us/pa/philly-mesh",
+      "state": "PA",
+      "name": "Philly Radio & Meshtastic",
+      "area": "Philadelphia area",
+      "status": "listed",
+      "path": "us/pa/philly-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://phillymesh.net/"
+      }
+    },
+    {
+      "id": "us/pa/susquehanna-valley-mesh",
+      "state": "PA",
+      "name": "Susquehanna Valley Mesh",
+      "area": "Susquehanna Valley",
+      "status": "listed",
+      "path": "us/pa/susquehanna-valley-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://svmesh.net"
+      }
+    },
+    {
+      "id": "us/pa/wpamesh",
+      "state": "PA",
+      "name": "WPAMesh",
+      "area": "Western Pennsylvania",
+      "status": "listed",
+      "path": "us/pa/wpamesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://wpamesh.net/"
+      }
+    },
+    {
+      "id": "us/pr/pr-mesh",
+      "state": "PR",
+      "name": "PR Mesh",
+      "area": "Puerto Rico",
+      "status": "listed",
+      "path": "us/pr/pr-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://prmsh.com"
+      }
+    },
+    {
+      "id": "us/sc/sc-mesh",
+      "state": "SC",
+      "name": "SC Mesh",
+      "area": "South Carolina",
+      "status": "listed",
+      "path": "us/sc/sc-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.scmesh.us/"
+      }
+    },
+    {
+      "id": "us/sd/central-sodakmesh",
+      "state": "SD",
+      "name": "Central SoDakMesh",
+      "area": "Central South Dakota",
+      "status": "listed",
+      "path": "us/sd/central-sodakmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://csdmesh.org/"
+      }
+    },
+    {
+      "id": "us/sd/sodakmesh",
+      "state": "SD",
+      "name": "SoDakMesh",
+      "area": "South Dakota",
+      "status": "listed",
+      "path": "us/sd/sodakmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "http://sodakmesh.org/"
+      }
+    },
+    {
+      "id": "us/tn/nashville-meshville",
+      "state": "TN",
+      "name": "Nashville Meshville",
+      "area": "Nashville area",
+      "status": "listed",
+      "path": "us/tn/nashville-meshville.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshville.org/"
+      }
+    },
+    {
+      "id": "us/tx/austin-mesh",
+      "state": "TX",
+      "name": "Austin Mesh",
+      "area": "Austin area",
+      "status": "listed",
+      "path": "us/tx/austin-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/6a5Sv2s9bG"
+      }
+    },
+    {
+      "id": "us/tx/central-texas-mesh",
+      "state": "TX",
+      "name": "Central Texas Mesh",
+      "area": "Central Texas",
+      "status": "listed",
+      "path": "us/tx/central-texas-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/StsH5BncsW"
+      }
+    },
+    {
+      "id": "us/tx/cypress-meshtastic-club",
+      "state": "TX",
+      "name": "Cypress, Texas Meshtastic Club",
+      "area": "Cypress, northwest Houston area",
+      "status": "listed",
+      "path": "us/tx/cypress-meshtastic-club.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/KzuwNRwE6q"
+      }
+    },
+    {
+      "id": "us/tx/el-paso-mesh-community",
+      "state": "TX",
+      "name": "El Paso Mesh Community",
+      "area": "El Paso area",
+      "status": "listed",
+      "path": "us/tx/el-paso-mesh-community.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://elpmesh.org"
+      }
+    },
+    {
+      "id": "us/tx/north-texas-mesh",
+      "state": "TX",
+      "name": "North Texas Mesh",
+      "area": "Dallas, Fort Worth and North Texas",
+      "status": "listed",
+      "path": "us/tx/north-texas-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://ntxmesh.com"
+      }
+    },
+    {
+      "id": "us/ut/intermountain-mesh-freq51",
+      "state": "UT",
+      "name": "Intermountain Mesh (Freq51)",
+      "area": "Salt Lake Valley, Tooele County, Utah County, Davis and Weber counties; also Boise and Twin Falls, Idaho",
+      "status": "published",
+      "path": "us/ut/intermountain-mesh-freq51.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "discord",
+        "url": "https://discord.gg/qmeeRPkq3g"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 51
+    },
+    {
+      "id": "us/va/albemarle-mesh",
+      "state": "VA",
+      "name": "Albemarle Mesh",
+      "area": "Charlottesville and Albemarle County",
+      "status": "listed",
+      "path": "us/va/albemarle-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://albemarlemesh.com/"
+      }
+    },
+    {
+      "id": "us/va/madisonmesh",
+      "state": "VA",
+      "name": "MadisonMesh",
+      "area": "Madison County",
+      "status": "listed",
+      "path": "us/va/madisonmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://madisonmesh.com/"
+      }
+    },
+    {
+      "id": "us/va/virginia-peninsula-mesh",
+      "state": "VA",
+      "name": "Virginia Peninsula Mesh",
+      "area": "Virginia Peninsula",
+      "status": "listed",
+      "path": "us/va/virginia-peninsula-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://vpmesh.org/"
+      }
+    },
+    {
+      "id": "us/wa/linc-lincoln-county-mesh",
+      "state": "WA",
+      "name": "LINC - Lincoln County Mesh Messaging",
+      "area": "Lincoln County",
+      "status": "listed",
+      "path": "us/wa/linc-lincoln-county-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://lincme.sh"
+      }
+    },
+    {
+      "id": "us/wa/puget-mesh",
+      "state": "WA",
+      "name": "Puget Mesh",
+      "area": "Puget Sound region",
+      "status": "listed",
+      "path": "us/wa/puget-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://PugetMesh.org"
+      }
+    },
+    {
+      "id": "us/wa/sagebrush-mesh-tri-cities",
+      "state": "WA",
+      "name": "Sagebrush Mesh (Tri-Cities)",
+      "area": "Tri-Cities: Kennewick, Pasco, Richland",
+      "status": "published",
+      "path": "us/wa/sagebrush-mesh-tri-cities.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://sagebrush-www.pages.dev/meshtastic/mediumfast"
+      },
+      "modemPreset": "MEDIUM_FAST",
+      "frequencySlot": 45
+    },
+    {
+      "id": "us/wa/spokane-mesh-network",
+      "state": "WA",
+      "name": "Spokane Mesh Network",
+      "area": "Spokane area",
+      "status": "listed",
+      "path": "us/wa/spokane-mesh-network.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "other",
+        "url": "https://groups.google.com/g/spokanemeshnet"
+      }
+    },
+    {
+      "id": "us/wi/dc414",
+      "state": "WI",
+      "name": "dc414",
+      "area": "Milwaukee area",
+      "status": "listed",
+      "path": "us/wi/dc414.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://www.dc414.org/"
+      }
+    },
+    {
+      "id": "us/wi/madison-area-mesh",
+      "state": "WI",
+      "name": "Madison Area Mesh",
+      "area": "Madison area",
+      "status": "listed",
+      "path": "us/wi/madison-area-mesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://madmesh.net"
+      }
+    },
+    {
+      "id": "us/wi/meshconsin",
+      "state": "WI",
+      "name": "Meshconsin",
+      "area": "Wisconsin",
+      "status": "listed",
+      "path": "us/wi/meshconsin.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://meshconsin.org"
+      }
+    },
+    {
+      "id": "us/wy/wyomingmesh",
+      "state": "WY",
+      "name": "WyomingMesh",
+      "area": "Wyoming",
+      "status": "listed",
+      "path": "us/wy/wyomingmesh.json",
+      "checked": "2026-11-19",
+      "contact": {
+        "type": "website",
+        "url": "https://wyomingmesh.org"
+      }
     }
   ]
 }
