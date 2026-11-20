@@ -4,7 +4,7 @@ Radio settings for [Meshtastic](https://meshtastic.org) communities in the Unite
 
 Local meshes often run something other than the firmware defaults: a different modem preset, a fixed frequency slot, a higher hop limit. A new radio set to the defaults can sit in the middle of a busy mesh and hear nothing. This repository records what each community publishes, with a link to where they published it and the date it was last checked.
 
-Unofficial. Not affiliated with Meshtastic LLC or with any community listed.
+Unofficial. Not affiliated with Meshtastic LLC or with any community listed. Maintained by [David Marcantonio](https://marcantonio.me).
 
 ## What's in it
 
